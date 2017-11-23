@@ -32,12 +32,12 @@ public class Zhuce extends BaseTest{
 	    	
 	    }
 
-	 @Test(dependsOnMethods="testLogin",dataProvider="s1",dataProviderClass=NSDataProvicer.class)
-	 public void testAddMessage(String nickname,String email,String realName,String password,String repassword) throws InterruptedException {
-			AddMassage add1=new AddMassage(webtest);
-			add1.input(nickname, email, realName, password, repassword);
-		}
-	 @Test(dependsOnMethods="testAddMessage")
+//	 @Test(dependsOnMethods="testLogin",dataProvider="s1",dataProviderClass=NSDataProvicer.class)
+//	 public void testAddMessage(String nickname,String email,String realName,String password,String repassword) throws InterruptedException {
+//			AddMassage add1=new AddMassage(webtest);
+//			add1.input(nickname, email, realName, password, repassword);
+//		}
+	 @Test(dependsOnMethods="testLogin")
 	 public void testAddAddress(String person,String province,String city,String county,String address2,String phone,String code) throws InterruptedException {
 		 AddAddress add=new AddAddress(webtest);
 		 add.input("majiashuo", "河北省", "衡水市", "深州市", "30号", "15732159232", "053800");

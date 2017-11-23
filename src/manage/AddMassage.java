@@ -1,5 +1,10 @@
 package manage;
 
+import org.openqa.selenium.By;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
 import com.webtest.core.WebDriverEngine;
 
 public class AddMassage {
@@ -9,6 +14,7 @@ public String realName;
 public String password;
 public String repassword;
 public WebDriverEngine webtest;
+WebDriver driver =null;
 
 public String getNickname() {
 	return nickname;
@@ -47,12 +53,19 @@ public AddMassage(WebDriverEngine webtest) {
 public void input(String nickname,String email,String realName,String password,String repassword) throws InterruptedException {
 	Thread.sleep(3000);
 	webtest.click("xpath=.//*[@id='shortcut']/div/ul[2]/li[1]/a[1]");
-	webtest.type("name=nickname", nickname);
+	
+
+	driver.findElement(By.name("nickname")).clear();
+	webtest.type("name=nickname",nickname);
 	webtest.click("xpath=//input[@value='男']");
-	webtest.type("name=email", email);
-	webtest.type("name=username", realName);
-	webtest.type("name=password", password);
-	webtest.type("name=repassword", repassword);
+	driver.findElement(By.name("email")).clear();
+	webtest.type("name=email",email);
+	driver.findElement(By.name("realName")).clear();
+	webtest.type("name=realName",realName);
+	driver.findElement(By.name("password")).clear();
+	webtest.type("name=password",password);
+	driver.findElement(By.name("repassword")).clear();
+	webtest.type("name=repassword",repassword);
 	webtest.click("xpath=//input[@type='submit']");
 	
 }

@@ -8,7 +8,6 @@
           <include name="testLogin"/>
           <include name="doAfterMethod"/>
           <include name="addListener"/>
-          <include name="testAddMessage"/>
           <include name="testAddAddress"/>
           <include name="doBeforeMethod"/>
         </methods>

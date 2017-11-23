@@ -60,6 +60,8 @@ public AddAddress(WebDriverEngine webtest) {
 }
 public void input(String person,String province,String city,String county,String address2,String phone,String code) throws InterruptedException {
 	Thread.sleep(3000);
+	webtest.click("xpath=.//*[@id='shortcut']/div/ul[2]/li[1]/a[1]");
+	Thread.sleep(3000);
 	webtest.click("linkText=收货地址");
 	webtest.click("linkText=添加收货地址");
 	webtest.type("name=person", person);

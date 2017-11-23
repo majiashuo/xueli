@@ -1621,3 +1621,441 @@ Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities [{moz:profile=C:\Users\火乐乐\AppData\Local\Temp\rust_mozprofile.tOTe6rbopqG3, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0.3, platformVersion=10.0, moz:processID=6572, browserName=firefox, javascriptEnabled=true, platformName=XP}]
 Session ID: 957bbfc4-d781-411d-bfc7-d072bfc7c21b
 *** Element info: {Using=xpath, value=//input[@type='submit']}
+[INFO ] 2017-11-23 14:37:22,572 com.webtest.util.Log - Using Firefox
+[INFO ] 2017-11-23 14:37:22,604 com.webtest.util.Log - firefox
+[INFO ] 2017-11-23 14:37:26,475 com.webtest.util.Log - Opened url http://localhost:8032/zl_shop/index.php/login/login.html
+[INFO ] 2017-11-23 14:38:33,274 com.webtest.util.Log - Quitted Browser
+[INFO ] 2017-11-23 14:39:46,546 com.webtest.util.Log - Using Firefox
+[INFO ] 2017-11-23 14:39:46,566 com.webtest.util.Log - firefox
+[INFO ] 2017-11-23 14:39:50,078 com.webtest.util.Log - Opened url http://localhost:8032/zl_shop/index.php/login/login.html
+[INFO ] 2017-11-23 14:40:34,738 com.webtest.util.Log - org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: '火乐乐的电脑', ip: '169.254.52.63', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\火乐乐\AppData\Local\Temp\rust_mozprofile.63pNsQyFT0Fb, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0.3, platformVersion=10.0, moz:processID=16236, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 7ea7c500-b917-44e2-84f8-ed2882f0d340
+*** Element info: {Using=xpath, value=.//*[@id='shortcut']/div/ul[2]/li[1]/a[1]}
+[INFO ] 2017-11-23 14:40:37,758 com.webtest.util.Log - org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: '火乐乐的电脑', ip: '169.254.52.63', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\火乐乐\AppData\Local\Temp\rust_mozprofile.63pNsQyFT0Fb, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0.3, platformVersion=10.0, moz:processID=16236, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 7ea7c500-b917-44e2-84f8-ed2882f0d340
+*** Element info: {Using=xpath, value=.//*[@id='shortcut']/div/ul[2]/li[1]/a[1]}
+[INFO ] 2017-11-23 14:40:40,773 com.webtest.util.Log - org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: '火乐乐的电脑', ip: '169.254.52.63', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\火乐乐\AppData\Local\Temp\rust_mozprofile.63pNsQyFT0Fb, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0.3, platformVersion=10.0, moz:processID=16236, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 7ea7c500-b917-44e2-84f8-ed2882f0d340
+*** Element info: {Using=xpath, value=.//*[@id='shortcut']/div/ul[2]/li[1]/a[1]}
+[INFO ] 2017-11-23 14:48:20,604 com.webtest.util.Log - Using Firefox
+[INFO ] 2017-11-23 14:48:20,625 com.webtest.util.Log - firefox
+[INFO ] 2017-11-23 14:48:24,302 com.webtest.util.Log - Opened url http://localhost:8032/zl_shop/index.php/login/login.html
+[INFO ] 2017-11-23 14:49:25,884 com.webtest.util.Log - Quitted Browser
+[INFO ] 2017-11-23 15:07:42,027 com.webtest.util.Log - Using Firefox
+[INFO ] 2017-11-23 15:07:42,034 com.webtest.util.Log - firefox
+[INFO ] 2017-11-23 15:07:46,942 com.webtest.util.Log - Opened url http://localhost:8032/zl_shop/index.php/login/login.html
+[INFO ] 2017-11-23 15:08:05,525 com.webtest.util.Log - org.openqa.selenium.NoSuchElementException: Unable to locate element: *[name='realName']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: '火乐乐的电脑', ip: '169.254.52.63', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\火乐乐\AppData\Local\Temp\rust_mozprofile.5mawAS1BTkEP, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0.3, platformVersion=10.0, moz:processID=9488, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 7f61e0c0-f5c4-4b1f-84cb-415edcbf3921
+*** Element info: {Using=name, value=realName}
+[INFO ] 2017-11-23 15:08:19,618 com.webtest.util.Log - org.openqa.selenium.NoSuchElementException: Unable to locate element: *[name='realName']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: '火乐乐的电脑', ip: '169.254.52.63', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\火乐乐\AppData\Local\Temp\rust_mozprofile.5mawAS1BTkEP, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0.3, platformVersion=10.0, moz:processID=9488, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 7f61e0c0-f5c4-4b1f-84cb-415edcbf3921
+*** Element info: {Using=name, value=realName}
+[INFO ] 2017-11-23 15:08:32,894 com.webtest.util.Log - org.openqa.selenium.NoSuchElementException: Unable to locate element: *[name='realName']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: '火乐乐的电脑', ip: '169.254.52.63', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\火乐乐\AppData\Local\Temp\rust_mozprofile.5mawAS1BTkEP, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0.3, platformVersion=10.0, moz:processID=9488, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 7f61e0c0-f5c4-4b1f-84cb-415edcbf3921
+*** Element info: {Using=name, value=realName}
+[INFO ] 2017-11-23 15:08:43,393 com.webtest.util.Log - org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: '火乐乐的电脑', ip: '169.254.52.63', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\火乐乐\AppData\Local\Temp\rust_mozprofile.5mawAS1BTkEP, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0.3, platformVersion=10.0, moz:processID=9488, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 7f61e0c0-f5c4-4b1f-84cb-415edcbf3921
+*** Element info: {Using=name, value=nickname}
+[INFO ] 2017-11-23 15:08:43,412 com.webtest.util.Log - org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: '火乐乐的电脑', ip: '169.254.52.63', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\火乐乐\AppData\Local\Temp\rust_mozprofile.5mawAS1BTkEP, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0.3, platformVersion=10.0, moz:processID=9488, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 7f61e0c0-f5c4-4b1f-84cb-415edcbf3921
+*** Element info: {Using=xpath, value=//input[@value='男']}
+[INFO ] 2017-11-23 15:08:43,412 com.webtest.util.Log - org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: '火乐乐的电脑', ip: '169.254.52.63', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\火乐乐\AppData\Local\Temp\rust_mozprofile.5mawAS1BTkEP, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0.3, platformVersion=10.0, moz:processID=9488, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 7f61e0c0-f5c4-4b1f-84cb-415edcbf3921
+*** Element info: {Using=name, value=email}
+[INFO ] 2017-11-23 15:08:43,412 com.webtest.util.Log - org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: '火乐乐的电脑', ip: '169.254.52.63', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\火乐乐\AppData\Local\Temp\rust_mozprofile.5mawAS1BTkEP, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0.3, platformVersion=10.0, moz:processID=9488, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 7f61e0c0-f5c4-4b1f-84cb-415edcbf3921
+*** Element info: {Using=name, value=realName}
+[INFO ] 2017-11-23 15:08:43,412 com.webtest.util.Log - org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: '火乐乐的电脑', ip: '169.254.52.63', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\火乐乐\AppData\Local\Temp\rust_mozprofile.5mawAS1BTkEP, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0.3, platformVersion=10.0, moz:processID=9488, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 7f61e0c0-f5c4-4b1f-84cb-415edcbf3921
+*** Element info: {Using=name, value=password}
+[INFO ] 2017-11-23 15:08:43,428 com.webtest.util.Log - org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: '火乐乐的电脑', ip: '169.254.52.63', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\火乐乐\AppData\Local\Temp\rust_mozprofile.5mawAS1BTkEP, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0.3, platformVersion=10.0, moz:processID=9488, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 7f61e0c0-f5c4-4b1f-84cb-415edcbf3921
+*** Element info: {Using=name, value=repassword}
+[INFO ] 2017-11-23 15:08:43,428 com.webtest.util.Log - org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: '火乐乐的电脑', ip: '169.254.52.63', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\火乐乐\AppData\Local\Temp\rust_mozprofile.5mawAS1BTkEP, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0.3, platformVersion=10.0, moz:processID=9488, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 7f61e0c0-f5c4-4b1f-84cb-415edcbf3921
+*** Element info: {Using=xpath, value=//input[@type='submit']}
+[INFO ] 2017-11-23 15:08:46,436 com.webtest.util.Log - org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: '火乐乐的电脑', ip: '169.254.52.63', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\火乐乐\AppData\Local\Temp\rust_mozprofile.5mawAS1BTkEP, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0.3, platformVersion=10.0, moz:processID=9488, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 7f61e0c0-f5c4-4b1f-84cb-415edcbf3921
+*** Element info: {Using=xpath, value=.//*[@id='shortcut']/div/ul[2]/li[1]/a[1]}
+[INFO ] 2017-11-23 15:08:46,445 com.webtest.util.Log - org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: '火乐乐的电脑', ip: '169.254.52.63', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\火乐乐\AppData\Local\Temp\rust_mozprofile.5mawAS1BTkEP, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0.3, platformVersion=10.0, moz:processID=9488, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 7f61e0c0-f5c4-4b1f-84cb-415edcbf3921
+*** Element info: {Using=name, value=nickname}
+[INFO ] 2017-11-23 15:08:46,450 com.webtest.util.Log - org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: '火乐乐的电脑', ip: '169.254.52.63', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\火乐乐\AppData\Local\Temp\rust_mozprofile.5mawAS1BTkEP, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0.3, platformVersion=10.0, moz:processID=9488, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 7f61e0c0-f5c4-4b1f-84cb-415edcbf3921
+*** Element info: {Using=xpath, value=//input[@value='男']}
+[INFO ] 2017-11-23 15:08:46,454 com.webtest.util.Log - org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: '火乐乐的电脑', ip: '169.254.52.63', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\火乐乐\AppData\Local\Temp\rust_mozprofile.5mawAS1BTkEP, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0.3, platformVersion=10.0, moz:processID=9488, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 7f61e0c0-f5c4-4b1f-84cb-415edcbf3921
+*** Element info: {Using=name, value=email}
+[INFO ] 2017-11-23 15:08:46,458 com.webtest.util.Log - org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: '火乐乐的电脑', ip: '169.254.52.63', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\火乐乐\AppData\Local\Temp\rust_mozprofile.5mawAS1BTkEP, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0.3, platformVersion=10.0, moz:processID=9488, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 7f61e0c0-f5c4-4b1f-84cb-415edcbf3921
+*** Element info: {Using=name, value=realName}
+[INFO ] 2017-11-23 15:08:46,458 com.webtest.util.Log - org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: '火乐乐的电脑', ip: '169.254.52.63', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\火乐乐\AppData\Local\Temp\rust_mozprofile.5mawAS1BTkEP, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0.3, platformVersion=10.0, moz:processID=9488, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 7f61e0c0-f5c4-4b1f-84cb-415edcbf3921
+*** Element info: {Using=name, value=password}
+[INFO ] 2017-11-23 15:08:46,458 com.webtest.util.Log - org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: '火乐乐的电脑', ip: '169.254.52.63', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\火乐乐\AppData\Local\Temp\rust_mozprofile.5mawAS1BTkEP, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0.3, platformVersion=10.0, moz:processID=9488, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 7f61e0c0-f5c4-4b1f-84cb-415edcbf3921
+*** Element info: {Using=name, value=repassword}
+[INFO ] 2017-11-23 15:08:46,458 com.webtest.util.Log - org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: '火乐乐的电脑', ip: '169.254.52.63', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\火乐乐\AppData\Local\Temp\rust_mozprofile.5mawAS1BTkEP, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0.3, platformVersion=10.0, moz:processID=9488, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 7f61e0c0-f5c4-4b1f-84cb-415edcbf3921
+*** Element info: {Using=xpath, value=//input[@type='submit']}
+[INFO ] 2017-11-23 15:08:49,486 com.webtest.util.Log - org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: '火乐乐的电脑', ip: '169.254.52.63', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\火乐乐\AppData\Local\Temp\rust_mozprofile.5mawAS1BTkEP, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0.3, platformVersion=10.0, moz:processID=9488, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 7f61e0c0-f5c4-4b1f-84cb-415edcbf3921
+*** Element info: {Using=xpath, value=.//*[@id='shortcut']/div/ul[2]/li[1]/a[1]}
+[INFO ] 2017-11-23 15:08:49,493 com.webtest.util.Log - org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: '火乐乐的电脑', ip: '169.254.52.63', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\火乐乐\AppData\Local\Temp\rust_mozprofile.5mawAS1BTkEP, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0.3, platformVersion=10.0, moz:processID=9488, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 7f61e0c0-f5c4-4b1f-84cb-415edcbf3921
+*** Element info: {Using=name, value=nickname}
+[INFO ] 2017-11-23 15:08:49,493 com.webtest.util.Log - org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: '火乐乐的电脑', ip: '169.254.52.63', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\火乐乐\AppData\Local\Temp\rust_mozprofile.5mawAS1BTkEP, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0.3, platformVersion=10.0, moz:processID=9488, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 7f61e0c0-f5c4-4b1f-84cb-415edcbf3921
+*** Element info: {Using=xpath, value=//input[@value='男']}
+[INFO ] 2017-11-23 15:08:49,493 com.webtest.util.Log - org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: '火乐乐的电脑', ip: '169.254.52.63', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\火乐乐\AppData\Local\Temp\rust_mozprofile.5mawAS1BTkEP, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0.3, platformVersion=10.0, moz:processID=9488, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 7f61e0c0-f5c4-4b1f-84cb-415edcbf3921
+*** Element info: {Using=name, value=email}
+[INFO ] 2017-11-23 15:08:49,493 com.webtest.util.Log - org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: '火乐乐的电脑', ip: '169.254.52.63', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\火乐乐\AppData\Local\Temp\rust_mozprofile.5mawAS1BTkEP, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0.3, platformVersion=10.0, moz:processID=9488, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 7f61e0c0-f5c4-4b1f-84cb-415edcbf3921
+*** Element info: {Using=name, value=realName}
+[INFO ] 2017-11-23 15:08:49,508 com.webtest.util.Log - org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: '火乐乐的电脑', ip: '169.254.52.63', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\火乐乐\AppData\Local\Temp\rust_mozprofile.5mawAS1BTkEP, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0.3, platformVersion=10.0, moz:processID=9488, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 7f61e0c0-f5c4-4b1f-84cb-415edcbf3921
+*** Element info: {Using=name, value=password}
+[INFO ] 2017-11-23 15:08:49,508 com.webtest.util.Log - org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: '火乐乐的电脑', ip: '169.254.52.63', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\火乐乐\AppData\Local\Temp\rust_mozprofile.5mawAS1BTkEP, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0.3, platformVersion=10.0, moz:processID=9488, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 7f61e0c0-f5c4-4b1f-84cb-415edcbf3921
+*** Element info: {Using=name, value=repassword}
+[INFO ] 2017-11-23 15:08:49,524 com.webtest.util.Log - org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: '火乐乐的电脑', ip: '169.254.52.63', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\火乐乐\AppData\Local\Temp\rust_mozprofile.5mawAS1BTkEP, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0.3, platformVersion=10.0, moz:processID=9488, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 7f61e0c0-f5c4-4b1f-84cb-415edcbf3921
+*** Element info: {Using=xpath, value=//input[@type='submit']}
+[INFO ] 2017-11-23 15:08:52,532 com.webtest.util.Log - org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: '火乐乐的电脑', ip: '169.254.52.63', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\火乐乐\AppData\Local\Temp\rust_mozprofile.5mawAS1BTkEP, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0.3, platformVersion=10.0, moz:processID=9488, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 7f61e0c0-f5c4-4b1f-84cb-415edcbf3921
+*** Element info: {Using=xpath, value=.//*[@id='shortcut']/div/ul[2]/li[1]/a[1]}
+[INFO ] 2017-11-23 15:08:52,543 com.webtest.util.Log - org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: '火乐乐的电脑', ip: '169.254.52.63', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\火乐乐\AppData\Local\Temp\rust_mozprofile.5mawAS1BTkEP, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0.3, platformVersion=10.0, moz:processID=9488, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 7f61e0c0-f5c4-4b1f-84cb-415edcbf3921
+*** Element info: {Using=name, value=nickname}
+[INFO ] 2017-11-23 15:08:52,548 com.webtest.util.Log - org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: '火乐乐的电脑', ip: '169.254.52.63', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\火乐乐\AppData\Local\Temp\rust_mozprofile.5mawAS1BTkEP, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0.3, platformVersion=10.0, moz:processID=9488, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 7f61e0c0-f5c4-4b1f-84cb-415edcbf3921
+*** Element info: {Using=xpath, value=//input[@value='男']}
+[INFO ] 2017-11-23 15:08:52,553 com.webtest.util.Log - org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: '火乐乐的电脑', ip: '169.254.52.63', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\火乐乐\AppData\Local\Temp\rust_mozprofile.5mawAS1BTkEP, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0.3, platformVersion=10.0, moz:processID=9488, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 7f61e0c0-f5c4-4b1f-84cb-415edcbf3921
+*** Element info: {Using=name, value=email}
+[INFO ] 2017-11-23 15:08:52,554 com.webtest.util.Log - org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: '火乐乐的电脑', ip: '169.254.52.63', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\火乐乐\AppData\Local\Temp\rust_mozprofile.5mawAS1BTkEP, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0.3, platformVersion=10.0, moz:processID=9488, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 7f61e0c0-f5c4-4b1f-84cb-415edcbf3921
+*** Element info: {Using=name, value=realName}
+[INFO ] 2017-11-23 15:08:52,554 com.webtest.util.Log - org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: '火乐乐的电脑', ip: '169.254.52.63', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\火乐乐\AppData\Local\Temp\rust_mozprofile.5mawAS1BTkEP, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0.3, platformVersion=10.0, moz:processID=9488, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 7f61e0c0-f5c4-4b1f-84cb-415edcbf3921
+*** Element info: {Using=name, value=password}
+[INFO ] 2017-11-23 15:08:52,554 com.webtest.util.Log - org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: '火乐乐的电脑', ip: '169.254.52.63', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\火乐乐\AppData\Local\Temp\rust_mozprofile.5mawAS1BTkEP, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0.3, platformVersion=10.0, moz:processID=9488, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 7f61e0c0-f5c4-4b1f-84cb-415edcbf3921
+*** Element info: {Using=name, value=repassword}
+[INFO ] 2017-11-23 15:08:52,570 com.webtest.util.Log - org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: '火乐乐的电脑', ip: '169.254.52.63', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\火乐乐\AppData\Local\Temp\rust_mozprofile.5mawAS1BTkEP, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0.3, platformVersion=10.0, moz:processID=9488, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 7f61e0c0-f5c4-4b1f-84cb-415edcbf3921
+*** Element info: {Using=xpath, value=//input[@type='submit']}
+[INFO ] 2017-11-23 15:08:55,584 com.webtest.util.Log - org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: '火乐乐的电脑', ip: '169.254.52.63', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\火乐乐\AppData\Local\Temp\rust_mozprofile.5mawAS1BTkEP, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0.3, platformVersion=10.0, moz:processID=9488, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 7f61e0c0-f5c4-4b1f-84cb-415edcbf3921
+*** Element info: {Using=xpath, value=.//*[@id='shortcut']/div/ul[2]/li[1]/a[1]}
+[INFO ] 2017-11-23 15:08:55,592 com.webtest.util.Log - org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: '火乐乐的电脑', ip: '169.254.52.63', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\火乐乐\AppData\Local\Temp\rust_mozprofile.5mawAS1BTkEP, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0.3, platformVersion=10.0, moz:processID=9488, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 7f61e0c0-f5c4-4b1f-84cb-415edcbf3921
+*** Element info: {Using=name, value=nickname}
+[INFO ] 2017-11-23 15:08:55,592 com.webtest.util.Log - org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: '火乐乐的电脑', ip: '169.254.52.63', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\火乐乐\AppData\Local\Temp\rust_mozprofile.5mawAS1BTkEP, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0.3, platformVersion=10.0, moz:processID=9488, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 7f61e0c0-f5c4-4b1f-84cb-415edcbf3921
+*** Element info: {Using=xpath, value=//input[@value='男']}
+[INFO ] 2017-11-23 15:08:55,592 com.webtest.util.Log - org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: '火乐乐的电脑', ip: '169.254.52.63', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\火乐乐\AppData\Local\Temp\rust_mozprofile.5mawAS1BTkEP, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0.3, platformVersion=10.0, moz:processID=9488, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 7f61e0c0-f5c4-4b1f-84cb-415edcbf3921
+*** Element info: {Using=name, value=email}
+[INFO ] 2017-11-23 15:08:55,607 com.webtest.util.Log - org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: '火乐乐的电脑', ip: '169.254.52.63', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\火乐乐\AppData\Local\Temp\rust_mozprofile.5mawAS1BTkEP, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0.3, platformVersion=10.0, moz:processID=9488, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 7f61e0c0-f5c4-4b1f-84cb-415edcbf3921
+*** Element info: {Using=name, value=realName}
+[INFO ] 2017-11-23 15:08:55,607 com.webtest.util.Log - org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: '火乐乐的电脑', ip: '169.254.52.63', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\火乐乐\AppData\Local\Temp\rust_mozprofile.5mawAS1BTkEP, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0.3, platformVersion=10.0, moz:processID=9488, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 7f61e0c0-f5c4-4b1f-84cb-415edcbf3921
+*** Element info: {Using=name, value=password}
+[INFO ] 2017-11-23 15:08:55,607 com.webtest.util.Log - org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: '火乐乐的电脑', ip: '169.254.52.63', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\火乐乐\AppData\Local\Temp\rust_mozprofile.5mawAS1BTkEP, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0.3, platformVersion=10.0, moz:processID=9488, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 7f61e0c0-f5c4-4b1f-84cb-415edcbf3921
+*** Element info: {Using=name, value=repassword}
+[INFO ] 2017-11-23 15:08:55,607 com.webtest.util.Log - org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: '火乐乐的电脑', ip: '169.254.52.63', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\火乐乐\AppData\Local\Temp\rust_mozprofile.5mawAS1BTkEP, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0.3, platformVersion=10.0, moz:processID=9488, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 7f61e0c0-f5c4-4b1f-84cb-415edcbf3921
+*** Element info: {Using=xpath, value=//input[@type='submit']}
+[INFO ] 2017-11-23 15:17:02,707 com.webtest.util.Log - Using Firefox
+[INFO ] 2017-11-23 15:17:02,715 com.webtest.util.Log - firefox
+[INFO ] 2017-11-23 15:17:06,354 com.webtest.util.Log - Opened url http://localhost:8032/zl_shop/index.php/login/login.html
+[INFO ] 2017-11-23 15:17:43,914 com.webtest.util.Log - org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: '火乐乐的电脑', ip: '169.254.52.63', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\火乐乐\AppData\Local\Temp\rust_mozprofile.fDmnpgKlbLPG, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0.3, platformVersion=10.0, moz:processID=4916, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: b8464c69-aeaa-40ec-9892-8909a58935ec
+*** Element info: {Using=xpath, value=.//*[@id='shortcut']/div/ul[2]/li[1]/a[1]}
+[INFO ] 2017-11-23 15:17:46,943 com.webtest.util.Log - org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: '火乐乐的电脑', ip: '169.254.52.63', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\火乐乐\AppData\Local\Temp\rust_mozprofile.fDmnpgKlbLPG, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0.3, platformVersion=10.0, moz:processID=4916, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: b8464c69-aeaa-40ec-9892-8909a58935ec
+*** Element info: {Using=xpath, value=.//*[@id='shortcut']/div/ul[2]/li[1]/a[1]}
+[INFO ] 2017-11-23 15:17:49,956 com.webtest.util.Log - org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: '火乐乐的电脑', ip: '169.254.52.63', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\火乐乐\AppData\Local\Temp\rust_mozprofile.fDmnpgKlbLPG, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0.3, platformVersion=10.0, moz:processID=4916, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: b8464c69-aeaa-40ec-9892-8909a58935ec
+*** Element info: {Using=xpath, value=.//*[@id='shortcut']/div/ul[2]/li[1]/a[1]}
+[INFO ] 2017-11-23 15:17:52,970 com.webtest.util.Log - org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: '火乐乐的电脑', ip: '169.254.52.63', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\火乐乐\AppData\Local\Temp\rust_mozprofile.fDmnpgKlbLPG, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0.3, platformVersion=10.0, moz:processID=4916, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: b8464c69-aeaa-40ec-9892-8909a58935ec
+*** Element info: {Using=xpath, value=.//*[@id='shortcut']/div/ul[2]/li[1]/a[1]}
+[INFO ] 2017-11-23 15:18:26,958 com.webtest.util.Log - Using Firefox
+[INFO ] 2017-11-23 15:18:26,969 com.webtest.util.Log - firefox
+[INFO ] 2017-11-23 15:18:30,593 com.webtest.util.Log - Opened url http://localhost:8032/zl_shop/index.php/login/login.html
+[INFO ] 2017-11-23 15:19:34,023 com.webtest.util.Log - Quitted Browser
+[INFO ] 2017-11-23 15:21:32,923 com.webtest.util.Log - Using Firefox
+[INFO ] 2017-11-23 15:21:32,931 com.webtest.util.Log - firefox
+[INFO ] 2017-11-23 15:21:36,601 com.webtest.util.Log - Opened url http://localhost:8032/zl_shop/index.php/login/login.html
+[INFO ] 2017-11-23 15:23:43,280 com.webtest.util.Log - org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: '火乐乐的电脑', ip: '169.254.52.63', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\火乐乐\AppData\Local\Temp\rust_mozprofile.r7VR2Nd1wCRD, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0.3, platformVersion=10.0, moz:processID=15912, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 43d3d2c7-3041-4b4a-8447-bee2caca4f3d
+*** Element info: {Using=xpath, value=.//*[@id='shortcut']/div/ul[2]/li[1]/a[1]}
+[INFO ] 2017-11-23 15:23:55,494 com.webtest.util.Log - Using Firefox
+[INFO ] 2017-11-23 15:23:55,495 com.webtest.util.Log - Using Firefox
+[INFO ] 2017-11-23 15:23:55,499 com.webtest.util.Log - firefox
+[INFO ] 2017-11-23 15:23:55,499 com.webtest.util.Log - firefox
+[INFO ] 2017-11-23 15:24:07,672 com.webtest.util.Log - Opened url http://localhost:8032/zl_shop/index.php/login/login.html
+[INFO ] 2017-11-23 15:24:08,357 com.webtest.util.Log - Opened url http://localhost:8032/zl_shop/index.php/login/login.html
+[INFO ] 2017-11-23 15:24:11,102 com.webtest.util.Log - org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: '火乐乐的电脑', ip: '169.254.52.63', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\火乐乐\AppData\Local\Temp\rust_mozprofile.r7VR2Nd1wCRD, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0.3, platformVersion=10.0, moz:processID=15912, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 43d3d2c7-3041-4b4a-8447-bee2caca4f3d
+*** Element info: {Using=xpath, value=.//*[@id='shortcut']/div/ul[2]/li[1]/a[1]}
+[INFO ] 2017-11-23 15:25:07,854 com.webtest.util.Log - org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: '火乐乐的电脑', ip: '169.254.52.63', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\火乐乐\AppData\Local\Temp\rust_mozprofile.1Oj5JhM2P8YN, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0.3, platformVersion=10.0, moz:processID=16880, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 8002fa39-e7ce-43b6-9a3b-aaf867190054
+*** Element info: {Using=xpath, value=.//*[@id='shortcut']/div/ul[2]/li[1]/a[1]}
+[INFO ] 2017-11-23 15:25:10,111 com.webtest.util.Log - org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: '火乐乐的电脑', ip: '169.254.52.63', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\火乐乐\AppData\Local\Temp\rust_mozprofile.3cCK63XmbuBJ, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0.3, platformVersion=10.0, moz:processID=10128, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 762eccc6-2cdd-4747-a883-5cc27a981e2c
+*** Element info: {Using=xpath, value=.//*[@id='shortcut']/div/ul[2]/li[1]/a[1]}
+[INFO ] 2017-11-23 15:25:25,755 com.webtest.util.Log - org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: '火乐乐的电脑', ip: '169.254.52.63', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\火乐乐\AppData\Local\Temp\rust_mozprofile.1Oj5JhM2P8YN, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0.3, platformVersion=10.0, moz:processID=16880, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 8002fa39-e7ce-43b6-9a3b-aaf867190054
+*** Element info: {Using=xpath, value=.//*[@id='shortcut']/div/ul[2]/li[1]/a[1]}
+[INFO ] 2017-11-23 15:25:27,280 com.webtest.util.Log - org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: '火乐乐的电脑', ip: '169.254.52.63', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\火乐乐\AppData\Local\Temp\rust_mozprofile.r7VR2Nd1wCRD, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0.3, platformVersion=10.0, moz:processID=15912, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 43d3d2c7-3041-4b4a-8447-bee2caca4f3d
+*** Element info: {Using=xpath, value=.//*[@id='shortcut']/div/ul[2]/li[1]/a[1]}
+[INFO ] 2017-11-23 15:28:23,153 com.webtest.util.Log - Using Firefox
+[INFO ] 2017-11-23 15:28:23,158 com.webtest.util.Log - firefox
+[INFO ] 2017-11-23 15:28:26,840 com.webtest.util.Log - Opened url http://localhost:8032/zl_shop/index.php/login/login.html
+[INFO ] 2017-11-23 15:29:29,757 com.webtest.util.Log - Quitted Browser
+[INFO ] 2017-11-23 15:30:02,896 com.webtest.util.Log - Using Firefox
+[INFO ] 2017-11-23 15:30:02,904 com.webtest.util.Log - firefox
+[INFO ] 2017-11-23 15:30:06,605 com.webtest.util.Log - Opened url http://localhost:8032/zl_shop/index.php/login/login.html
+[INFO ] 2017-11-23 15:31:09,086 com.webtest.util.Log - Quitted Browser
+[INFO ] 2017-11-23 16:10:19,497 com.webtest.util.Log - Using Firefox
+[INFO ] 2017-11-23 16:10:19,509 com.webtest.util.Log - firefox
+[INFO ] 2017-11-23 16:10:23,115 com.webtest.util.Log - Opened url http://localhost:8032/zl_shop/index.php/login/login.html
+[INFO ] 2017-11-23 16:10:38,045 com.webtest.util.Log - Quitted Browser
+[INFO ] 2017-11-23 16:14:04,052 com.webtest.util.Log - Using Firefox
+[INFO ] 2017-11-23 16:14:04,063 com.webtest.util.Log - firefox
+[INFO ] 2017-11-23 16:14:07,695 com.webtest.util.Log - Opened url http://localhost:8032/zl_shop/index.php/login/login.html
+[INFO ] 2017-11-23 16:14:20,761 com.webtest.util.Log - Quitted Browser
+[INFO ] 2017-11-23 16:17:04,913 com.webtest.util.Log - Using Firefox
+[INFO ] 2017-11-23 16:17:04,923 com.webtest.util.Log - firefox
+[INFO ] 2017-11-23 16:17:08,645 com.webtest.util.Log - Opened url http://localhost:8032/zl_shop/index.php/login/login.html
+[INFO ] 2017-11-23 16:17:19,224 com.webtest.util.Log - Quitted Browser
