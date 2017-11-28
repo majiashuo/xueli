@@ -14,9 +14,7 @@ import manage.AddMassage;
 import manage.LoginClass;
 
 
-
-
-public class Zhuce extends BaseTest{
+public class Massage extends BaseTest{
 
 	@BeforeSuite
 	public void addListener(ITestContext context)throws Exception {
@@ -37,9 +35,13 @@ public class Zhuce extends BaseTest{
 //			AddMassage add1=new AddMassage(webtest);
 //			add1.input(nickname, email, realName, password, repassword);
 //		}
+//	 @Test(dependsOnMethods="testLogin",dataProvider="s3",dataProviderClass=NSDataProvicer.class)
 	 @Test(dependsOnMethods="testLogin")
-	 public void testAddAddress(String person,String province,String city,String county,String address2,String phone,String code) throws InterruptedException {
+//	 public void testAddAddress(String person,String province,String city,String county,String address2,String phone,String code) throws InterruptedException {
+	 public void testAddAddress() throws InterruptedException {
 		 AddAddress add=new AddAddress(webtest);
-		 add.input("majiashuo", "河北省", "衡水市", "深州市", "30号", "15732159232", "053800");
+		 add.input("马佳烁11", "浙江省", "杭州市", "临安市", "40号", "18323145678", "123456");
+//		 add.input(person,province,city,county,address2,phone,code);
 	 }
+	 
 }
