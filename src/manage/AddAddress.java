@@ -24,7 +24,7 @@ public class AddAddress {
 	webtest.type("name=phone", phone);
 	webtest.type("name=code", code);
 	Thread.sleep(3000);
-	webtest.click("xpath=.//*[@id='add_address']/div[2]/div");
+	webtest.click("xpath=//*[@id='add_address']/div[2]/div");
 	Thread.sleep(5000);                         
 	webtest.getAlert().accept();
 	
