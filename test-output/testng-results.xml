@@ -2,38 +2,34 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="76169" started-at="2017-11-29T09:16:12Z" finished-at="2017-11-29T09:17:28Z">
+  <suite name="Default suite" duration-ms="40590" started-at="2017-11-30T09:08:17Z" finished-at="2017-11-30T09:08:58Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="76169" started-at="2017-11-29T09:16:12Z" finished-at="2017-11-29T09:17:28Z">
+    <test name="Default test" duration-ms="40590" started-at="2017-11-30T09:08:17Z" finished-at="2017-11-30T09:08:58Z">
       <class name="test.Massage">
-        <test-method status="PASS" signature="addListener(org.testng.ITestContext)[pri:0, instance:test.Massage@457e2f02]" name="addListener" is-config="true" duration-ms="15" started-at="2017-11-29T17:16:12Z" finished-at="2017-11-29T17:16:12Z">
+        <test-method status="PASS" signature="doBeforeMethod()[pri:0, instance:test.Massage@4cc0edeb]" name="doBeforeMethod" is-config="true" duration-ms="16295" started-at="2017-11-30T17:08:17Z" finished-at="2017-11-30T17:08:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeMethod -->
+        <test-method status="PASS" signature="addListener(org.testng.ITestContext)[pri:0, instance:test.Massage@4cc0edeb]" name="addListener" is-config="true" duration-ms="0" started-at="2017-11-30T17:08:17Z" finished-at="2017-11-30T17:08:17Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@1cbf6e72]]>
+                <![CDATA[org.testng.TestRunner@6e6d5d29]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addListener -->
-        <test-method status="PASS" signature="doBeforeMethod()[pri:0, instance:test.Massage@457e2f02]" name="doBeforeMethod" is-config="true" duration-ms="42986" started-at="2017-11-29T17:16:12Z" finished-at="2017-11-29T17:16:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- doBeforeMethod -->
-        <test-method status="PASS" signature="testLogin()[pri:0, instance:test.Massage@457e2f02]" name="testLogin" duration-ms="13795" started-at="2017-11-29T17:16:55Z" finished-at="2017-11-29T17:17:08Z">
+        <test-method status="PASS" signature="testLogin()[pri:0, instance:test.Massage@4cc0edeb]" name="testLogin" duration-ms="12418" started-at="2017-11-30T17:08:33Z" finished-at="2017-11-30T17:08:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin -->
-        <test-method status="PASS" signature="testAddShopping()[pri:0, instance:test.Massage@457e2f02]" name="testAddShopping" duration-ms="13566" started-at="2017-11-29T17:17:08Z" depends-on-methods="test.Massage.testLogin" finished-at="2017-11-29T17:17:22Z">
+        <test-method status="PASS" signature="testDeleteShopping()[pri:0, instance:test.Massage@4cc0edeb]" name="testDeleteShopping" duration-ms="11842" started-at="2017-11-30T17:08:46Z" depends-on-methods="test.Massage.testLogin" finished-at="2017-11-30T17:08:58Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testAddShopping -->
-        <test-method status="PASS" signature="doAfterMethod()[pri:0, instance:test.Massage@457e2f02]" name="doAfterMethod" is-config="true" duration-ms="5771" started-at="2017-11-29T17:17:22Z" finished-at="2017-11-29T17:17:28Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- doAfterMethod -->
+        </test-method> <!-- testDeleteShopping -->
       </class> <!-- test.Massage -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

@@ -3658,3 +3658,92 @@ Capabilities [{moz:profile=C:\Users\火乐乐\AppData\Local\Temp\rust_mozprofile
 Session ID: 07a21a3f-5491-44d5-8a11-d1d12f7b8dad
 *** Element info: {Using=link text, value=加入购物车}
 [INFO ] 2017-11-29 17:17:28,201 com.webtest.util.Log - Quitted Browser
+[INFO ] 2017-11-30 15:35:59,999 com.webtest.util.Log - Using Firefox
+[INFO ] 2017-11-30 15:36:00,029 com.webtest.util.Log - firefox
+[INFO ] 2017-11-30 15:36:07,754 com.webtest.util.Log - Opened url http://localhost:8032/zl_shop/index.php/login/login.html
+[INFO ] 2017-11-30 15:36:35,142 com.webtest.util.Log - org.openqa.selenium.NoSuchElementException: Unable to locate element: .//*[@id='hotsales']/div[2]/div[1]/div[2]/div[3]/a
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: '火乐乐的电脑', ip: '169.254.52.63', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\火乐乐\AppData\Local\Temp\rust_mozprofile.3D2FapJbtICd, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0.3, platformVersion=10.0, moz:processID=6388, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: bbdb61d6-3389-415b-9e21-1064f45b057d
+*** Element info: {Using=xpath, value=.//*[@id='hotsales']/div[2]/div[1]/div[2]/div[3]/a}
+[INFO ] 2017-11-30 15:36:35,156 com.webtest.util.Log - org.openqa.selenium.NoSuchElementException: Unable to locate element: #color35
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: '火乐乐的电脑', ip: '169.254.52.63', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\火乐乐\AppData\Local\Temp\rust_mozprofile.3D2FapJbtICd, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0.3, platformVersion=10.0, moz:processID=6388, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: bbdb61d6-3389-415b-9e21-1064f45b057d
+*** Element info: {Using=id, value=color35}
+[INFO ] 2017-11-30 15:36:35,171 com.webtest.util.Log - org.openqa.selenium.NoSuchElementException: Unable to locate element: #color30
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: '火乐乐的电脑', ip: '169.254.52.63', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\火乐乐\AppData\Local\Temp\rust_mozprofile.3D2FapJbtICd, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0.3, platformVersion=10.0, moz:processID=6388, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: bbdb61d6-3389-415b-9e21-1064f45b057d
+*** Element info: {Using=id, value=color30}
+[INFO ] 2017-11-30 15:36:35,187 com.webtest.util.Log - org.openqa.selenium.NoSuchElementException: Unable to locate element: 加入购物车
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: '火乐乐的电脑', ip: '169.254.52.63', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\火乐乐\AppData\Local\Temp\rust_mozprofile.3D2FapJbtICd, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0.3, platformVersion=10.0, moz:processID=6388, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: bbdb61d6-3389-415b-9e21-1064f45b057d
+*** Element info: {Using=link text, value=加入购物车}
+[INFO ] 2017-11-30 15:36:46,349 com.webtest.util.Log - Quitted Browser
+[INFO ] 2017-11-30 15:46:16,883 com.webtest.util.Log - Using Firefox
+[INFO ] 2017-11-30 15:46:16,904 com.webtest.util.Log - firefox
+[INFO ] 2017-11-30 15:46:20,851 com.webtest.util.Log - Opened url http://localhost:8032/zl_shop/index.php/login/login.html
+[INFO ] 2017-11-30 15:46:45,144 com.webtest.util.Log - org.openqa.selenium.NoSuchElementException: Unable to locate element: .//*[@id='hotsales']/div[2]/div[1]/div[2]/div[3]/a
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: '火乐乐的电脑', ip: '169.254.52.63', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\火乐乐\AppData\Local\Temp\rust_mozprofile.6sFG1VL55gn2, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0.3, platformVersion=10.0, moz:processID=30488, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 8c78cec4-7450-4b51-b83c-2f74ed4b070e
+*** Element info: {Using=xpath, value=.//*[@id='hotsales']/div[2]/div[1]/div[2]/div[3]/a}
+[INFO ] 2017-11-30 15:47:56,073 com.webtest.util.Log - Using Firefox
+[INFO ] 2017-11-30 15:47:56,079 com.webtest.util.Log - firefox
+[INFO ] 2017-11-30 15:47:59,842 com.webtest.util.Log - Opened url http://localhost:8032/zl_shop/index.php/login/login.html
+[INFO ] 2017-11-30 15:49:17,811 com.webtest.util.Log - Using Firefox
+[INFO ] 2017-11-30 15:49:17,826 com.webtest.util.Log - firefox
+[INFO ] 2017-11-30 15:49:24,368 com.webtest.util.Log - Opened url http://localhost:8032/zl_shop/index.php/login/login.html
+[INFO ] 2017-11-30 15:52:52,136 com.webtest.util.Log - Using Firefox
+[INFO ] 2017-11-30 15:52:52,152 com.webtest.util.Log - firefox
+[INFO ] 2017-11-30 15:52:55,891 com.webtest.util.Log - Opened url http://localhost:8032/zl_shop/index.php/login/login.html
+[INFO ] 2017-11-30 15:56:11,990 com.webtest.util.Log - Using Firefox
+[INFO ] 2017-11-30 15:56:12,005 com.webtest.util.Log - firefox
+[INFO ] 2017-11-30 15:56:15,931 com.webtest.util.Log - Opened url http://localhost:8032/zl_shop/index.php/login/login.html
+[INFO ] 2017-11-30 15:58:13,746 com.webtest.util.Log - Using Firefox
+[INFO ] 2017-11-30 15:58:13,752 com.webtest.util.Log - firefox
+[INFO ] 2017-11-30 15:58:17,348 com.webtest.util.Log - Opened url http://localhost:8032/zl_shop/index.php/login/login.html
+[INFO ] 2017-11-30 16:17:00,563 com.webtest.util.Log - Using Firefox
+[INFO ] 2017-11-30 16:17:00,578 com.webtest.util.Log - firefox
+[INFO ] 2017-11-30 16:17:04,949 com.webtest.util.Log - Opened url http://localhost:8032/zl_shop/index.php/login/login.html
+[INFO ] 2017-11-30 16:18:25,410 com.webtest.util.Log - Using Firefox
+[INFO ] 2017-11-30 16:18:25,429 com.webtest.util.Log - firefox
+[INFO ] 2017-11-30 16:18:29,395 com.webtest.util.Log - Opened url http://localhost:8032/zl_shop/index.php/login/login.html
+[INFO ] 2017-11-30 16:20:45,893 com.webtest.util.Log - Using Firefox
+[INFO ] 2017-11-30 16:20:45,908 com.webtest.util.Log - firefox
+[INFO ] 2017-11-30 16:20:49,592 com.webtest.util.Log - Opened url http://localhost:8032/zl_shop/index.php/login/login.html
+[INFO ] 2017-11-30 16:33:04,930 com.webtest.util.Log - Using Firefox
+[INFO ] 2017-11-30 16:33:04,944 com.webtest.util.Log - firefox
+[INFO ] 2017-11-30 16:33:09,401 com.webtest.util.Log - Opened url http://localhost:8032/zl_shop/index.php/login/login.html
+[INFO ] 2017-11-30 16:36:22,501 com.webtest.util.Log - Using Firefox
+[INFO ] 2017-11-30 16:36:22,523 com.webtest.util.Log - firefox
+[INFO ] 2017-11-30 16:36:26,544 com.webtest.util.Log - Opened url http://localhost:8032/zl_shop/index.php/login/login.html
+[INFO ] 2017-11-30 16:38:08,813 com.webtest.util.Log - Using Firefox
+[INFO ] 2017-11-30 16:38:08,831 com.webtest.util.Log - firefox
+[INFO ] 2017-11-30 16:38:12,715 com.webtest.util.Log - Opened url http://localhost:8032/zl_shop/index.php/login/login.html
+[INFO ] 2017-11-30 16:39:41,760 com.webtest.util.Log - Using Firefox
+[INFO ] 2017-11-30 16:39:41,769 com.webtest.util.Log - firefox
+[INFO ] 2017-11-30 16:39:45,562 com.webtest.util.Log - Opened url http://localhost:8032/zl_shop/index.php/login/login.html
+[INFO ] 2017-11-30 16:56:18,937 com.webtest.util.Log - Using Firefox
+[INFO ] 2017-11-30 16:56:18,955 com.webtest.util.Log - firefox
+[INFO ] 2017-11-30 16:56:22,926 com.webtest.util.Log - Opened url http://localhost:8032/zl_shop/index.php/login/login.html
+[INFO ] 2017-11-30 17:08:33,725 com.webtest.util.Log - Using Firefox
+[INFO ] 2017-11-30 17:08:33,749 com.webtest.util.Log - firefox
+[INFO ] 2017-11-30 17:08:37,958 com.webtest.util.Log - Opened url http://localhost:8032/zl_shop/index.php/login/login.html

@@ -5,11 +5,8 @@
     <classes>
       <class name="test.Massage">
         <methods>
-          <include name="testDeleteAddress"/>
-          <include name="testAddAddress"/>
-          <include name="doAfterMethod"/>
+          <include name="testAddShopping"/>
           <include name="testLogin"/>
-          <include name="testAddMessage"/>
           <include name="addListener"/>
           <include name="doBeforeMethod"/>
         </methods>

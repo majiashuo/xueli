@@ -13,9 +13,18 @@ public class AddShopping {
 		 webtest.click("link=返回京东首页");
 		 webtest.click("link=女士");
 		 Thread.sleep(3000);
+		 webtest.getWindow(1);
 		 webtest.click("xpath=.//*[@id='hotsales']/div[2]/div[1]/div[2]/div[3]/a");
-		 webtest.click("id=color35");
-		 webtest.click("id=color30");
-		 webtest.click("link=加入购物车");
+		 webtest.getWindow(2);
+		 Thread.sleep(3000);
+		 webtest.click("xpath=.//*[@id='choose']/div[1]/div[1]/div[2]/label[1]");
+		 webtest.click("xpath=.//*[@id='choose']/div[1]/div[2]/div[2]/label[1]");
+		 Thread.sleep(3000);
+		 webtest.runJs("window.scrollBy(0,2000)");
+		 webtest.click("xpath=.//*[@id='choose']/div[2]/div/a/b");
+		 webtest.alertAccept();
+		 webtest.closeWindow();
+		 webtest.getWindow(1);
+		 webtest.closeWindow();
 	 }
 }

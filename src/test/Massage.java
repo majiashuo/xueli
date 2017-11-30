@@ -13,6 +13,7 @@ import manage.AddAddress;
 import manage.AddMassage;
 import manage.AddShopping;
 import manage.DeleteAddress;
+import manage.DeleteShopping;
 import manage.LoginClass;
 
 
@@ -48,10 +49,15 @@ public class Massage extends BaseTest{
 //		 DeleteAddress del=new DeleteAddress(webtest);
 //		 del.delete();
 //	 }
+//	 @Test(dependsOnMethods="testLogin")
+//	 public void testAddShopping() throws InterruptedException {
+//			AddShopping add2=new AddShopping(webtest);
+//			add2.addgoods();
+//		}
 	 @Test(dependsOnMethods="testLogin")
-	 public void testAddShopping() throws InterruptedException {
-			AddShopping add2=new AddShopping(webtest);
-			add2.addgoods();
-		}
+	 public void testDeleteShopping() throws InterruptedException {
+		 DeleteShopping del=new DeleteShopping(webtest);
+		 del.delete();
+	 }
 	 
 }
