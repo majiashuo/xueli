@@ -9,6 +9,7 @@ public class AddShopping {
 			
 	    }
 	 public void addgoods() throws InterruptedException {
+		 webtest.getWindow(0);
 		 webtest.click("link=majiashuo");
 		 webtest.click("link=返回京东首页");
 		 webtest.click("link=女士");

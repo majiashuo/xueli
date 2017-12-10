@@ -1,0 +1,233 @@
+<html>
+<head>
+<title>TestNG:  t1</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>t1</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/0/11</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Dec 08 17:46:41 CST 2017</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (45 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='test.PayShopping.testLogin()'><b>testLogin</b><br>Test class: test.PayShopping</td>
+<td><div><pre>java.lang.NullPointerException
+	at manage.LoginClass.inputValuesSeccess(Unknown Source)
+	at test.PayShopping.testLogin(Unknown Source)
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace532445947", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace532445947'><pre>java.lang.NullPointerException
+	at manage.LoginClass.inputValuesSeccess(Unknown Source)
+	at test.PayShopping.testLogin(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='test.Address.doBeforeMethod()'><b>doBeforeMethod</b><br>Test class: test.Address</td>
+<td></td>
+<td>0</td>
+<td>test.Address@75412c2f</td></tr>
+<tr>
+<td title='test.Massage.doBeforeMethod()'><b>doBeforeMethod</b><br>Test class: test.Massage</td>
+<td></td>
+<td>0</td>
+<td>test.Massage@50cbc42f</td></tr>
+<tr>
+<td title='test.Login.doBeforeMethod()'><b>doBeforeMethod</b><br>Test class: test.Login</td>
+<td></td>
+<td>0</td>
+<td>test.Login@1c53fd30</td></tr>
+<tr>
+<td title='test.Shopping.doBeforeMethod()'><b>doBeforeMethod</b><br>Test class: test.Shopping</td>
+<td></td>
+<td>0</td>
+<td>test.Shopping@282ba1e</td></tr>
+<tr>
+<td title='test.PayShopping.doBeforeMethod()'><b>doBeforeMethod</b><br>Test class: test.PayShopping</td>
+<td></td>
+<td>0</td>
+<td>test.PayShopping@5f150435</td></tr>
+<tr>
+<td title='test.Login.doAfterMethod()'><b>doAfterMethod</b><br>Test class: test.Login</td>
+<td></td>
+<td>0</td>
+<td>test.Login@1c53fd30</td></tr>
+<tr>
+<td title='test.PayShopping.doAfterMethod()'><b>doAfterMethod</b><br>Test class: test.PayShopping</td>
+<td></td>
+<td>0</td>
+<td>test.PayShopping@5f150435</td></tr>
+<tr>
+<td title='test.Shopping.doAfterMethod()'><b>doAfterMethod</b><br>Test class: test.Shopping</td>
+<td></td>
+<td>0</td>
+<td>test.Shopping@282ba1e</td></tr>
+<tr>
+<td title='test.Massage.doAfterMethod()'><b>doAfterMethod</b><br>Test class: test.Massage</td>
+<td></td>
+<td>0</td>
+<td>test.Massage@50cbc42f</td></tr>
+<tr>
+<td title='test.Address.doAfterMethod()'><b>doAfterMethod</b><br>Test class: test.Address</td>
+<td></td>
+<td>0</td>
+<td>test.Address@75412c2f</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='test.Address.testAddAddress()'><b>testAddAddress</b><br>Test class: test.Address<br>Parameters: 马佳烁, 浙江省, 杭州市, 临安市, 40号, 18323145678, 123456</td>
+<td></td>
+<td>0</td>
+<td>test.Address@75412c2f</td></tr>
+<tr>
+<td title='test.Address.testAddAddress()'><b>testAddAddress</b><br>Test class: test.Address<br>Parameters: 张晓明, 黑龙江省, 哈尔滨市, 松北区, 14栋3号, 13323456789, 234554</td>
+<td></td>
+<td>0</td>
+<td>test.Address@75412c2f</td></tr>
+<tr>
+<td title='test.Address.testAddAddress()'><b>testAddAddress</b><br>Test class: test.Address<br>Parameters: 李晓红, 福建省, 福州市, 鼓楼区, 2栋工业, 15532155678, 890890</td>
+<td></td>
+<td>0</td>
+<td>test.Address@75412c2f</td></tr>
+<tr>
+<td title='test.Address.testAddAddress()'><b>testAddAddress</b><br>Test class: test.Address<br>Parameters: 张婷婷, 山东省, 济南市, 天桥区, 3号写字楼, 18032834432, 234678</td>
+<td></td>
+<td>0</td>
+<td>test.Address@75412c2f</td></tr>
+<tr>
+<td title='test.Address.testAddAddress()'><b>testAddAddress</b><br>Test class: test.Address<br>Parameters: 何建一, 上海市, 上海市, 黄浦区, 邮局, 15523456654, 888999</td>
+<td></td>
+<td>0</td>
+<td>test.Address@75412c2f</td></tr>
+<tr>
+<td title='test.Shopping.testAddShopping()'><b>testAddShopping</b><br>Test class: test.Shopping</td>
+<td></td>
+<td>0</td>
+<td>test.Shopping@282ba1e</td></tr>
+<tr>
+<td title='test.Address.testDeleteAddress()'><b>testDeleteAddress</b><br>Test class: test.Address</td>
+<td></td>
+<td>0</td>
+<td>test.Address@75412c2f</td></tr>
+<tr>
+<td title='test.Shopping.testDeleteShopping()'><b>testDeleteShopping</b><br>Test class: test.Shopping</td>
+<td></td>
+<td>0</td>
+<td>test.Shopping@282ba1e</td></tr>
+<tr>
+<td title='test.Login.testLogin()'><b>testLogin</b><br>Test class: test.Login</td>
+<td></td>
+<td>0</td>
+<td>test.Login@1c53fd30</td></tr>
+<tr>
+<td title='test.Massage.testLogin()'><b>testLogin</b><br>Test class: test.Massage</td>
+<td></td>
+<td>0</td>
+<td>test.Massage@50cbc42f</td></tr>
+<tr>
+<td title='test.PayShopping.testPay()'><b>testPay</b><br>Test class: test.PayShopping</td>
+<td></td>
+<td>0</td>
+<td>test.PayShopping@5f150435</td></tr>
+</table><p>
+</body>
+</html>

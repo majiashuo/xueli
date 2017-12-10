@@ -1,0 +1,14 @@
+<suite name="s2"  parallel="tests" verbose="1">
+       
+       <test name="t2" >
+       <classes>
+            
+            <class name="mail.Mail">
+               <methods>
+                 <include name="send"></include>
+               </methods>
+			</class>
+       </classes>
+       </test>
+       
+</suite>

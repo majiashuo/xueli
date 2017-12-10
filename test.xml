@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="s1"  parallel="methods" verbose="1">
+  <test name="Test">
+    <classes>
+      <class name="test.Login"/>
+      <class name="test.Address"/>
+      <class name="test.Massage"/>
+      <class name="test.PayShopping"/>
+      <class name="test.Shopping"/>
+    </classes>
+  </test> <!-- Test -->
+</suite>
+
+
+
+	
+

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [s1]" parallel="tests">
+  <listeners>
+    <listener class-name="listener.WebtestListener"/>
+  </listeners>
+  <test name="t1(failed)" parallel="tests">
+    <classes>
+      <class name="test.Massage">
+        <methods>
+          <include name="testPay"/>
+          <include name="doAfterMethod"/>
+          <include name="testLogin"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- test.Massage -->
+    </classes>
+  </test> <!-- t1(failed) -->
+</suite> <!-- Failed suite [s1] -->

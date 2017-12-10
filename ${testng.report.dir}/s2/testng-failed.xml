@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [s2]" parallel="tests">
+  <test name="t2(failed)" parallel="tests">
+    <classes>
+      <class name="mail.Mail">
+        <methods>
+          <include name="send"/>
+        </methods>
+      </class> <!-- mail.Mail -->
+    </classes>
+  </test> <!-- t2(failed) -->
+</suite> <!-- Failed suite [s2] -->

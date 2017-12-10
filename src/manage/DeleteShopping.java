@@ -9,6 +9,7 @@ public class DeleteShopping {
 			
 	    }
 	 public void delete() throws InterruptedException {
+		 webtest.getWindow(0);
 		 webtest.click("link=majiashuo");
 		 webtest.click("link=返回京东首页");
 		 webtest.mouseoverElement("link=我的购物车");

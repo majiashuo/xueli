@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project name ="javacTest" default="run" basedir=".">
+<project name ="javacTest" default="run2" basedir=".">
 	
 	 <!-- 定义全局变量 -->
 	<property name="dest" value="./build/classes" />
 	<property name="testng.output.dir" value="./lib"/>
+	<property name="testng.report.dir" value="./report"/>
 	 <!-- 定义类路径 -->
-	<path id="classes">
+	<path id="test.classpath">
 	     <fileset dir="lib" includes="*.jar"/>
 		 <pathelement location="${dest}"/>
 	</path>
@@ -18,16 +19,33 @@
     <!-- 编译 src目录 -->
     <target name="compile"  depends ="clean">
         <mkdir dir ="${dest}"/>
-    	<javac srcdir="src" destdir="${dest}"  classpathref="classes" includeantruntime="on" >
+    	<javac srcdir="src" destdir="${dest}"  classpathref="test.classpath" includeantruntime="on" >
     		    	  	 <compilerarg line="-encoding UTF-8 "/>   
         </javac>
-
-    	 
     </target>
+	
     <!-- 运行 -->
-    <target name="run"  depends ="compile">
-     	   	<testng outputdir="${testng.report.dir}" classpathref="classes" >
-    	  	 <xmlfileset dir="." includes="addmovie.xml"/>
+    <target name="run"  depends="compile">
+     	   	<testng outputdir="${testng.report.dir}" classpathref="test.classpath" >
+    	  	 <xmlfileset dir="." includes="test.xml"/>
     	  	</testng>
     </target>
+	<target name= "testoutput" depends="run">
+		<xslt in="D:/eclipse-workspace/xueli/test-output/testng-results.xml" style="D:/eclipse-workspace/xueli/test-output/testng-results.xsl"
+		out="D:/eclipse-workspace/xueli/test-output/index1.html">
+		<!-- you need to specify the directory here again -->
+		<param name="testNgXslt.outputDir" expression="D:/eclipse-workspace/xueli/test-output/"/>
+		<param name="testNgXslt.showRuntimeTotals" expression="true"/>
+		<classpath refid="test.classpath"/>
+		</xslt>
+		</target>
+	<target name="zipsrc" depends="testoutput">
+	        <zip destfile="D:/eclipse-workspace/xueli/result.zip" basedir="D:/eclipse-workspace/xueli/test-output" excludes=".svn"/>
+	    </target>
+	<target name="run2"  depends="zipsrc">
+	     	   	<testng outputdir="${testng.report.dir}" classpathref="test.classpath" >
+	    	  	 <xmlfileset dir="." includes="test2.xml"/>
+	    	  	</testng>
+	    </target>
 </project>
+

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [s1]" parallel="methods">
+  <test name="Test(failed)" parallel="methods">
+    <classes>
+      <class name="test.Massage">
+        <methods>
+          <include name="testAddMessage"/>
+        </methods>
+      </class> <!-- test.Massage -->
+      <class name="test.Shopping">
+        <methods>
+          <include name="testAddShopping"/>
+          <include name="testDeleteShopping"/>
+        </methods>
+      </class> <!-- test.Shopping -->
+      <class name="test.Address">
+        <methods>
+          <include name="testLogin"/>
+          <include name="testAddAddress"/>
+          <include name="testDeleteAddress"/>
+        </methods>
+      </class> <!-- test.Address -->
+      <class name="test.PayShopping">
+        <methods>
+          <include name="testPay"/>
+        </methods>
+      </class> <!-- test.PayShopping -->
+      <class name="test.Login">
+        <methods>
+          <include name="testLogin"/>
+        </methods>
+      </class> <!-- test.Login -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [s1] -->

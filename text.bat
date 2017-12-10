@@ -1,5 +1,5 @@
 d:
 cd eclipse-workspace
-cd movie
+cd xueli
 call ant
 pause
