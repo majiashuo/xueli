@@ -14,7 +14,7 @@ public class testAddAddress extends BaseTest{
     	LoginClass add=new LoginClass(webtest);
     	add.inputValuesSeccess("majiashuo", "123456");
     }
-	 @Test(dependsOnMethods="testLogin",dataProvider="s3",dataProviderClass=NSDataProvicer.class)
+	 @Test(dependsOnMethods="testLogin",dataProvider="address",dataProviderClass=NSDataProvicer.class)
 
 	 public void testAddAddresses(String person,String province,String city,String county,String address2,String phone,String code) throws InterruptedException {
 		AddAddress add=new AddAddress(webtest);

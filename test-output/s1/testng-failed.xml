@@ -6,20 +6,42 @@
   </listeners>
   <test name="s1(failed)">
     <classes>
+      <class name="test.testName">
+        <methods>
+          <include name="testLogin"/>
+          <include name="doAfterMethod"/>
+          <include name="testAddMessage3"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- test.testName -->
       <class name="test.Login">
         <methods>
           <include name="doAfterMethod"/>
           <include name="doBeforeMethod"/>
         </methods>
       </class> <!-- test.Login -->
-      <class name="test.testMassage">
+      <class name="test.testEmail">
         <methods>
           <include name="doAfterMethod"/>
           <include name="testLogin"/>
-          <include name="testAddMessage"/>
+          <include name="testAddMessage2"/>
           <include name="doBeforeMethod"/>
         </methods>
-      </class> <!-- test.testMassage -->
+      </class> <!-- test.testEmail -->
+      <class name="test.testPasswd">
+        <methods>
+          <include name="testAddMessage4"/>
+          <include name="doAfterMethod"/>
+          <include name="testLogin"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- test.testPasswd -->
+      <class name="test.testNickname">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- test.testNickname -->
     </classes>
   </test> <!-- s1(failed) -->
 </suite> <!-- Failed suite [s1] -->

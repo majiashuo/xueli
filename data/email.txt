@@ -1,0 +1,10 @@
+昵称	邮箱	名称	密码	确认密码
+马	1	majiashuo	mxjmjs9229..	mxjmjs9229..
+马	123@111.cn	majiashuo	mxjmjs9229..	mxjmjs9229..
+马	n	majiashuo	mxjmjs9229..	mxjmjs9229..
+马	#	majiashuo	mxjmjs9229..	mxjmjs9229..
+马	mjs@	majiashuo	mxjmjs9229..	mxjmjs9229..
+马	1@www.co	majiashuo	mxjmjs9229..	mxjmjs9229..
+马	134222323457@qq.com	majiashuo	mxjmjs9229..	mxjmjs9229..
+马	@qq.com	majiashuo	mxjmjs9229..	mxjmjs9229..
+马	15369162047@qq.com	majiashuo	123456	123456

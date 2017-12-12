@@ -1,0 +1,10 @@
+昵称	邮箱	名称	密码	确认密码
+马	246831@qq.com	1234	mxjmjs9229..	mxjmjs9229..
+马	246831@qq.com	123A	mxjmjs9229..	mxjmjs9229..
+马	246831@qq.com	1234马	mxjmjs9229..	mxjmjs9229..
+马	246831@qq.com	12.	mxjmjs9229..	mxjmjs9229..
+马	246831@qq.com	马.	mxjmjs9229..	mxjmjs9229..
+马	246831@qq.com	马123a.	mxjmjs9229..	mxjmjs9229..
+马	246831@qq.com	#	mxjmjs9229..	mxjmjs9229..
+马	246831@qq.com	1234#	mxjmjs9229..	mxjmjs9229..
+马	246831@qq.com	majiashuo	123456	123456

@@ -3,14 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="test.testMassage">
+      <class name="test.testEmail">
         <methods>
           <include name="doAfterMethod"/>
           <include name="testLogin"/>
-          <include name="testAddMessage"/>
+          <include name="testAddMessage2"/>
           <include name="doBeforeMethod"/>
         </methods>
-      </class> <!-- test.testMassage -->
+      </class> <!-- test.testEmail -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>s1</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>13/7/1</td>
+<td>Tests passed/Failed/Skipped:</td><td>59/3/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Dec 12 10:22:22 CST 2017</td>
+<td>Started on:</td><td>Tue Dec 12 15:36:39 CST 2017</td>
 </tr>
-<tr><td>Total time:</td><td>812 seconds (812955 ms)</td>
+<tr><td>Total time:</td><td>1185 seconds (1185213 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,44 +75,24 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='test.testAddAddress.testAddAddresses()'><b>testAddAddresses</b><br>Test class: test.testAddAddress<br>Parameters: 马佳烁, 浙江省, 杭州市, 临安市, 40号, 18323145678, 123456</td>
-<td><div><pre>org.openqa.selenium.NoAlertPresentException: No modal dialog is currently open
+<td title='test.testAddAddress.testAddAddresses()'><b>testAddAddresses</b><br>Test class: test.testAddAddress<br>Parameters: 小红, 河北省, 衡水市, 深州, 30号, 15732159232, 053800</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Cannot locate option with value: 深州
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T16:15:40.131Z&apos;
 System info: host: &apos;火乐乐的电脑&apos;, ip: &apos;169.254.52.63&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\火乐乐\AppData\Local\Temp\rust_mozprofile.QXVh2eB9FQ0t, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0.3, platformVersion=10.0, moz:processID=1952, browserName=firefox, javascriptEnabled=true, platformName=XP}]
-Session ID: c216e77d-43fb-4d8d-ae19-80716b59e474
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:643)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:972)
-	at com.webtest.core.WebDriverEngine.getAlert(WebDriverEngine.java:198)
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByValue(Select.java:209)
+	at com.webtest.core.WebDriverEngine.selectByValue(WebDriverEngine.java:208)
 	at manage.AddAddress.input(Unknown Source)
 	at test.testAddAddress.testAddAddresses(Unknown Source)
-... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1577167234", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1577167234'><pre>org.openqa.selenium.NoAlertPresentException: No modal dialog is currently open
+... Removed 23 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2144067911", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2144067911'><pre>org.openqa.selenium.NoSuchElementException: Cannot locate option with value: 深州
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T16:15:40.131Z&apos;
 System info: host: &apos;火乐乐的电脑&apos;, ip: &apos;169.254.52.63&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\火乐乐\AppData\Local\Temp\rust_mozprofile.QXVh2eB9FQ0t, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0.3, platformVersion=10.0, moz:processID=1952, browserName=firefox, javascriptEnabled=true, platformName=XP}]
-Session ID: c216e77d-43fb-4d8d-ae19-80716b59e474
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:643)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:972)
-	at com.webtest.core.WebDriverEngine.getAlert(WebDriverEngine.java:198)
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByValue(Select.java:209)
+	at com.webtest.core.WebDriverEngine.selectByValue(WebDriverEngine.java:208)
 	at manage.AddAddress.input(Unknown Source)
 	at test.testAddAddress.testAddAddresses(Unknown Source)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -139,284 +119,16 @@ Session ID: c216e77d-43fb-4d8d-ae19-80716b59e474
 	at org.testng.TestNG.privateMain(TestNG.java:1355)
 	at org.testng.TestNG.main(TestNG.java:1324)
 </pre></div></td>
-<td>61</td>
-<td>test.testAddAddress@71e7a66b</td></tr>
-<tr>
-<td title='test.testAddAddress.testAddAddresses()'><b>testAddAddresses</b><br>Test class: test.testAddAddress<br>Parameters: 张晓明, 黑龙江省, 哈尔滨市, 松北区, 14栋3号, 13323456789, 234554</td>
-<td><div><pre>org.openqa.selenium.NoAlertPresentException: No modal dialog is currently open
-Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T16:15:40.131Z&apos;
-System info: host: &apos;火乐乐的电脑&apos;, ip: &apos;169.254.52.63&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\火乐乐\AppData\Local\Temp\rust_mozprofile.QXVh2eB9FQ0t, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0.3, platformVersion=10.0, moz:processID=1952, browserName=firefox, javascriptEnabled=true, platformName=XP}]
-Session ID: c216e77d-43fb-4d8d-ae19-80716b59e474
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:643)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:972)
-	at com.webtest.core.WebDriverEngine.getAlert(WebDriverEngine.java:198)
-	at manage.AddAddress.input(Unknown Source)
-	at test.testAddAddress.testAddAddresses(Unknown Source)
-... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace782228073", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace782228073'><pre>org.openqa.selenium.NoAlertPresentException: No modal dialog is currently open
-Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T16:15:40.131Z&apos;
-System info: host: &apos;火乐乐的电脑&apos;, ip: &apos;169.254.52.63&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\火乐乐\AppData\Local\Temp\rust_mozprofile.QXVh2eB9FQ0t, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0.3, platformVersion=10.0, moz:processID=1952, browserName=firefox, javascriptEnabled=true, platformName=XP}]
-Session ID: c216e77d-43fb-4d8d-ae19-80716b59e474
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:643)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:972)
-	at com.webtest.core.WebDriverEngine.getAlert(WebDriverEngine.java:198)
-	at manage.AddAddress.input(Unknown Source)
-	at test.testAddAddress.testAddAddresses(Unknown Source)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.testng.TestNG.privateMain(TestNG.java:1355)
-	at org.testng.TestNG.main(TestNG.java:1324)
-</pre></div></td>
-<td>44</td>
-<td>test.testAddAddress@71e7a66b</td></tr>
-<tr>
-<td title='test.testAddAddress.testAddAddresses()'><b>testAddAddresses</b><br>Test class: test.testAddAddress<br>Parameters: 李晓红, 福建省, 福州市, 鼓楼区, 2栋工业, 15532155678, 890890</td>
-<td><div><pre>org.openqa.selenium.NoAlertPresentException: No modal dialog is currently open
-Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T16:15:40.131Z&apos;
-System info: host: &apos;火乐乐的电脑&apos;, ip: &apos;169.254.52.63&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\火乐乐\AppData\Local\Temp\rust_mozprofile.QXVh2eB9FQ0t, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0.3, platformVersion=10.0, moz:processID=1952, browserName=firefox, javascriptEnabled=true, platformName=XP}]
-Session ID: c216e77d-43fb-4d8d-ae19-80716b59e474
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:643)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:972)
-	at com.webtest.core.WebDriverEngine.getAlert(WebDriverEngine.java:198)
-	at manage.AddAddress.input(Unknown Source)
-	at test.testAddAddress.testAddAddresses(Unknown Source)
-... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace425015667", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace425015667'><pre>org.openqa.selenium.NoAlertPresentException: No modal dialog is currently open
-Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T16:15:40.131Z&apos;
-System info: host: &apos;火乐乐的电脑&apos;, ip: &apos;169.254.52.63&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\火乐乐\AppData\Local\Temp\rust_mozprofile.QXVh2eB9FQ0t, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0.3, platformVersion=10.0, moz:processID=1952, browserName=firefox, javascriptEnabled=true, platformName=XP}]
-Session ID: c216e77d-43fb-4d8d-ae19-80716b59e474
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:643)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:972)
-	at com.webtest.core.WebDriverEngine.getAlert(WebDriverEngine.java:198)
-	at manage.AddAddress.input(Unknown Source)
-	at test.testAddAddress.testAddAddresses(Unknown Source)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.testng.TestNG.privateMain(TestNG.java:1355)
-	at org.testng.TestNG.main(TestNG.java:1324)
-</pre></div></td>
-<td>43</td>
-<td>test.testAddAddress@71e7a66b</td></tr>
-<tr>
-<td title='test.testAddAddress.testAddAddresses()'><b>testAddAddresses</b><br>Test class: test.testAddAddress<br>Parameters: 张婷婷, 山东省, 济南市, 天桥区, 3号写字楼, 18032834432, 234678</td>
-<td><div><pre>org.openqa.selenium.NoAlertPresentException: No modal dialog is currently open
-Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T16:15:40.131Z&apos;
-System info: host: &apos;火乐乐的电脑&apos;, ip: &apos;169.254.52.63&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\火乐乐\AppData\Local\Temp\rust_mozprofile.QXVh2eB9FQ0t, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0.3, platformVersion=10.0, moz:processID=1952, browserName=firefox, javascriptEnabled=true, platformName=XP}]
-Session ID: c216e77d-43fb-4d8d-ae19-80716b59e474
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:643)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:972)
-	at com.webtest.core.WebDriverEngine.getAlert(WebDriverEngine.java:198)
-	at manage.AddAddress.input(Unknown Source)
-	at test.testAddAddress.testAddAddresses(Unknown Source)
-... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1660325375", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1660325375'><pre>org.openqa.selenium.NoAlertPresentException: No modal dialog is currently open
-Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T16:15:40.131Z&apos;
-System info: host: &apos;火乐乐的电脑&apos;, ip: &apos;169.254.52.63&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\火乐乐\AppData\Local\Temp\rust_mozprofile.QXVh2eB9FQ0t, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0.3, platformVersion=10.0, moz:processID=1952, browserName=firefox, javascriptEnabled=true, platformName=XP}]
-Session ID: c216e77d-43fb-4d8d-ae19-80716b59e474
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:643)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:972)
-	at com.webtest.core.WebDriverEngine.getAlert(WebDriverEngine.java:198)
-	at manage.AddAddress.input(Unknown Source)
-	at test.testAddAddress.testAddAddresses(Unknown Source)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.testng.TestNG.privateMain(TestNG.java:1355)
-	at org.testng.TestNG.main(TestNG.java:1324)
-</pre></div></td>
-<td>46</td>
-<td>test.testAddAddress@71e7a66b</td></tr>
-<tr>
-<td title='test.testAddAddress.testAddAddresses()'><b>testAddAddresses</b><br>Test class: test.testAddAddress<br>Parameters: 何建一, 上海市, 上海市, 黄浦区, 邮局, 15523456654, 888999</td>
-<td><div><pre>org.openqa.selenium.NoAlertPresentException: No modal dialog is currently open
-Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T16:15:40.131Z&apos;
-System info: host: &apos;火乐乐的电脑&apos;, ip: &apos;169.254.52.63&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\火乐乐\AppData\Local\Temp\rust_mozprofile.QXVh2eB9FQ0t, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0.3, platformVersion=10.0, moz:processID=1952, browserName=firefox, javascriptEnabled=true, platformName=XP}]
-Session ID: c216e77d-43fb-4d8d-ae19-80716b59e474
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:643)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:972)
-	at com.webtest.core.WebDriverEngine.getAlert(WebDriverEngine.java:198)
-	at manage.AddAddress.input(Unknown Source)
-	at test.testAddAddress.testAddAddresses(Unknown Source)
-... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace992743048", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace992743048'><pre>org.openqa.selenium.NoAlertPresentException: No modal dialog is currently open
-Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T16:15:40.131Z&apos;
-System info: host: &apos;火乐乐的电脑&apos;, ip: &apos;169.254.52.63&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\火乐乐\AppData\Local\Temp\rust_mozprofile.QXVh2eB9FQ0t, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0.3, platformVersion=10.0, moz:processID=1952, browserName=firefox, javascriptEnabled=true, platformName=XP}]
-Session ID: c216e77d-43fb-4d8d-ae19-80716b59e474
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:643)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:972)
-	at com.webtest.core.WebDriverEngine.getAlert(WebDriverEngine.java:198)
-	at manage.AddAddress.input(Unknown Source)
-	at test.testAddAddress.testAddAddresses(Unknown Source)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.testng.TestNG.privateMain(TestNG.java:1355)
-	at org.testng.TestNG.main(TestNG.java:1324)
-</pre></div></td>
-<td>43</td>
-<td>test.testAddAddress@71e7a66b</td></tr>
+<td>28</td>
+<td>test.testAddAddress@3ecf72fd</td></tr>
 <tr>
 <td title='test.testPayAll.testPayAlls()'><b>testPayAlls</b><br>Test class: test.testPayAll</td>
 <td><div><pre>org.openqa.selenium.UnhandledAlertException: : 
 Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T16:15:40.131Z&apos;
 System info: host: &apos;火乐乐的电脑&apos;, ip: &apos;169.254.52.63&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\火乐乐\AppData\Local\Temp\rust_mozprofile.xyShst55PyDt, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0.3, platformVersion=10.0, moz:processID=6400, browserName=firefox, javascriptEnabled=true, platformName=XP}]
-Session ID: 838efed6-691a-46cf-b8e8-d3cd95b3d2b3
+Capabilities [{moz:profile=C:\Users\火乐乐\AppData\Local\Temp\rust_mozprofile.XyDj38LwD6ZL, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0.3, platformVersion=10.0, moz:processID=13180, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 5b7d3f5e-cee5-4db4-b7ca-0d3d28e7bb2e
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:118)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
@@ -427,13 +139,13 @@ Session ID: 838efed6-691a-46cf-b8e8-d3cd95b3d2b3
 	at com.webtest.core.WebDriverEngine.closeWindow(WebDriverEngine.java:260)
 	at manage.Pay.payAll(Unknown Source)
 	at test.testPayAll.testPayAlls(Unknown Source)
-... Removed 23 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace519303080", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace519303080'><pre>org.openqa.selenium.UnhandledAlertException: : 
+... Removed 23 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace57085696", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace57085696'><pre>org.openqa.selenium.UnhandledAlertException: : 
 Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T16:15:40.131Z&apos;
 System info: host: &apos;火乐乐的电脑&apos;, ip: &apos;169.254.52.63&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\火乐乐\AppData\Local\Temp\rust_mozprofile.xyShst55PyDt, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0.3, platformVersion=10.0, moz:processID=6400, browserName=firefox, javascriptEnabled=true, platformName=XP}]
-Session ID: 838efed6-691a-46cf-b8e8-d3cd95b3d2b3
+Capabilities [{moz:profile=C:\Users\火乐乐\AppData\Local\Temp\rust_mozprofile.XyDj38LwD6ZL, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0.3, platformVersion=10.0, moz:processID=13180, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 5b7d3f5e-cee5-4db4-b7ca-0d3d28e7bb2e
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:118)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
@@ -469,15 +181,15 @@ Session ID: 838efed6-691a-46cf-b8e8-d3cd95b3d2b3
 	at org.testng.TestNG.main(TestNG.java:1324)
 </pre></div></td>
 <td>19</td>
-<td>test.testPayAll@13b6d03</td></tr>
+<td>test.testPayAll@71f2a7d5</td></tr>
 <tr>
 <td title='test.testPayOne.testPayOnes()'><b>testPayOnes</b><br>Test class: test.testPayOne</td>
 <td><div><pre>org.openqa.selenium.UnhandledAlertException: : 
 Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T16:15:40.131Z&apos;
 System info: host: &apos;火乐乐的电脑&apos;, ip: &apos;169.254.52.63&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\火乐乐\AppData\Local\Temp\rust_mozprofile.8t8OMpBW21FG, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0.3, platformVersion=10.0, moz:processID=19200, browserName=firefox, javascriptEnabled=true, platformName=XP}]
-Session ID: 2871cc1e-5943-487d-9fb9-7d72e29451cb
+Capabilities [{moz:profile=C:\Users\火乐乐\AppData\Local\Temp\rust_mozprofile.B0gCysD6xyTD, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0.3, platformVersion=10.0, moz:processID=13420, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 3c602149-9aa5-4ab3-8ee4-b654a4d014c7
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:118)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
@@ -488,13 +200,13 @@ Session ID: 2871cc1e-5943-487d-9fb9-7d72e29451cb
 	at com.webtest.core.WebDriverEngine.closeWindow(WebDriverEngine.java:260)
 	at manage.Pay.pay(Unknown Source)
 	at test.testPayOne.testPayOnes(Unknown Source)
-... Removed 23 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace533415944", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace533415944'><pre>org.openqa.selenium.UnhandledAlertException: : 
+... Removed 23 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace614580607", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace614580607'><pre>org.openqa.selenium.UnhandledAlertException: : 
 Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T16:15:40.131Z&apos;
 System info: host: &apos;火乐乐的电脑&apos;, ip: &apos;169.254.52.63&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\火乐乐\AppData\Local\Temp\rust_mozprofile.8t8OMpBW21FG, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0.3, platformVersion=10.0, moz:processID=19200, browserName=firefox, javascriptEnabled=true, platformName=XP}]
-Session ID: 2871cc1e-5943-487d-9fb9-7d72e29451cb
+Capabilities [{moz:profile=C:\Users\火乐乐\AppData\Local\Temp\rust_mozprofile.B0gCysD6xyTD, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0.3, platformVersion=10.0, moz:processID=13420, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 3c602149-9aa5-4ab3-8ee4-b654a4d014c7
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:118)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
@@ -530,7 +242,7 @@ Session ID: 2871cc1e-5943-487d-9fb9-7d72e29451cb
 	at org.testng.TestNG.main(TestNG.java:1324)
 </pre></div></td>
 <td>16</td>
-<td>test.testPayOne@282ba1e</td></tr>
+<td>test.testPayOne@7a92922</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -540,120 +252,300 @@ Session ID: 2871cc1e-5943-487d-9fb9-7d72e29451cb
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<td title='test.testAddAddress.testAddAddresses()'><b>testAddAddresses</b><br>Test class: test.testAddAddress<br>Parameters: 马佳烁, 浙江省, 杭州市, 临安市, 40号,  , 123456</td>
+<td></td>
+<td>43</td>
+<td>test.testAddAddress@3ecf72fd</td></tr>
+<tr>
+<td title='test.testAddAddress.testAddAddresses()'><b>testAddAddresses</b><br>Test class: test.testAddAddress<br>Parameters: 张晓明, 黑龙江省, 哈尔滨市, 松北区, 14栋3号, 139, 234554</td>
+<td></td>
+<td>43</td>
+<td>test.testAddAddress@3ecf72fd</td></tr>
+<tr>
+<td title='test.testAddAddress.testAddAddresses()'><b>testAddAddresses</b><br>Test class: test.testAddAddress<br>Parameters: 李晓红, 福建省, 福州市, 鼓楼区, 2栋工业, 15532155678, 890890</td>
+<td></td>
+<td>43</td>
+<td>test.testAddAddress@3ecf72fd</td></tr>
+<tr>
+<td title='test.testAddAddress.testAddAddresses()'><b>testAddAddresses</b><br>Test class: test.testAddAddress<br>Parameters: 张婷婷, 山东省, 济南市, 天桥区, 3号写字楼, 18032834432, 234678</td>
+<td></td>
+<td>43</td>
+<td>test.testAddAddress@3ecf72fd</td></tr>
+<tr>
+<td title='test.testAddAddress.testAddAddresses()'><b>testAddAddresses</b><br>Test class: test.testAddAddress<br>Parameters:  , 上海市, 上海市, 黄浦区, 邮局, 15523456654, 888999</td>
+<td></td>
+<td>43</td>
+<td>test.testAddAddress@3ecf72fd</td></tr>
+<tr>
+<td title='test.testNickname.testAddMessage()'><b>testAddMessage</b><br>Test class: test.testNickname<br>Parameters: 马, 246831@qq.com, majiashuo, mxjmjs9229.., mxjmjs9229..</td>
+<td></td>
+<td>16</td>
+<td>test.testNickname@75412c2f</td></tr>
+<tr>
+<td title='test.testNickname.testAddMessage()'><b>testAddMessage</b><br>Test class: test.testNickname<br>Parameters: 马1, 246831@qq.com, majiashuo, mxjmjs9229.., mxjmjs9229..</td>
+<td></td>
+<td>15</td>
+<td>test.testNickname@75412c2f</td></tr>
+<tr>
+<td title='test.testNickname.testAddMessage()'><b>testAddMessage</b><br>Test class: test.testNickname<br>Parameters: 马a, 246831@qq.com, majiashuo, mxjmjs9229.., mxjmjs9229..</td>
+<td></td>
+<td>15</td>
+<td>test.testNickname@75412c2f</td></tr>
+<tr>
+<td title='test.testNickname.testAddMessage()'><b>testAddMessage</b><br>Test class: test.testNickname<br>Parameters: 马., 246831@qq.com, majiashuo, mxjmjs9229.., mxjmjs9229..</td>
+<td></td>
+<td>15</td>
+<td>test.testNickname@75412c2f</td></tr>
+<tr>
+<td title='test.testNickname.testAddMessage()'><b>testAddMessage</b><br>Test class: test.testNickname<br>Parameters: 1a马., 246831@qq.com, majiashuo, mxjmjs9229.., mxjmjs9229..</td>
+<td></td>
+<td>15</td>
+<td>test.testNickname@75412c2f</td></tr>
+<tr>
+<td title='test.testNickname.testAddMessage()'><b>testAddMessage</b><br>Test class: test.testNickname<br>Parameters: 马马吗吗吗吗吗吗吗吗吗吗吗吗吗吗吗, 246831@qq.com, majiashuo, mxjmjs9229.., mxjmjs9229..</td>
+<td></td>
+<td>15</td>
+<td>test.testNickname@75412c2f</td></tr>
+<tr>
+<td title='test.testNickname.testAddMessage()'><b>testAddMessage</b><br>Test class: test.testNickname<br>Parameters: 1111111111111111111111111, 246831@qq.com, majiashuo, mxjmjs9229.., mxjmjs9229..</td>
+<td></td>
+<td>15</td>
+<td>test.testNickname@75412c2f</td></tr>
+<tr>
+<td title='test.testNickname.testAddMessage()'><b>testAddMessage</b><br>Test class: test.testNickname<br>Parameters: #, 246831@qq.com, majiashuo, mxjmjs9229.., mxjmjs9229..</td>
+<td></td>
+<td>15</td>
+<td>test.testNickname@75412c2f</td></tr>
+<tr>
+<td title='test.testNickname.testAddMessage()'><b>testAddMessage</b><br>Test class: test.testNickname<br>Parameters:  , 246831@qq.com, majiashuo, 123456, 123456</td>
+<td></td>
+<td>15</td>
+<td>test.testNickname@75412c2f</td></tr>
+<tr>
+<td title='test.testEmail.testAddMessage2()'><b>testAddMessage2</b><br>Test class: test.testEmail<br>Parameters: 马, 1, majiashuo, mxjmjs9229.., mxjmjs9229..</td>
+<td></td>
+<td>15</td>
+<td>test.testEmail@13b6d03</td></tr>
+<tr>
+<td title='test.testEmail.testAddMessage2()'><b>testAddMessage2</b><br>Test class: test.testEmail<br>Parameters: 马, 123@111.cn, majiashuo, mxjmjs9229.., mxjmjs9229..</td>
+<td></td>
+<td>15</td>
+<td>test.testEmail@13b6d03</td></tr>
+<tr>
+<td title='test.testEmail.testAddMessage2()'><b>testAddMessage2</b><br>Test class: test.testEmail<br>Parameters: 马, n, majiashuo, mxjmjs9229.., mxjmjs9229..</td>
+<td></td>
+<td>15</td>
+<td>test.testEmail@13b6d03</td></tr>
+<tr>
+<td title='test.testEmail.testAddMessage2()'><b>testAddMessage2</b><br>Test class: test.testEmail<br>Parameters: 马, #, majiashuo, mxjmjs9229.., mxjmjs9229..</td>
+<td></td>
+<td>15</td>
+<td>test.testEmail@13b6d03</td></tr>
+<tr>
+<td title='test.testEmail.testAddMessage2()'><b>testAddMessage2</b><br>Test class: test.testEmail<br>Parameters: 马, mjs@, majiashuo, mxjmjs9229.., mxjmjs9229..</td>
+<td></td>
+<td>15</td>
+<td>test.testEmail@13b6d03</td></tr>
+<tr>
+<td title='test.testEmail.testAddMessage2()'><b>testAddMessage2</b><br>Test class: test.testEmail<br>Parameters: 马, 1@www.co, majiashuo, mxjmjs9229.., mxjmjs9229..</td>
+<td></td>
+<td>15</td>
+<td>test.testEmail@13b6d03</td></tr>
+<tr>
+<td title='test.testEmail.testAddMessage2()'><b>testAddMessage2</b><br>Test class: test.testEmail<br>Parameters: 马, 134222323457@qq.com, majiashuo, mxjmjs9229.., mxjmjs9229..</td>
+<td></td>
+<td>15</td>
+<td>test.testEmail@13b6d03</td></tr>
+<tr>
+<td title='test.testEmail.testAddMessage2()'><b>testAddMessage2</b><br>Test class: test.testEmail<br>Parameters: 马, @qq.com, majiashuo, mxjmjs9229.., mxjmjs9229..</td>
+<td></td>
+<td>15</td>
+<td>test.testEmail@13b6d03</td></tr>
+<tr>
+<td title='test.testEmail.testAddMessage2()'><b>testAddMessage2</b><br>Test class: test.testEmail<br>Parameters: 马, 15369162047@qq.com, majiashuo, 123456, 123456</td>
+<td></td>
+<td>15</td>
+<td>test.testEmail@13b6d03</td></tr>
+<tr>
+<td title='test.testName.testAddMessage3()'><b>testAddMessage3</b><br>Test class: test.testName<br>Parameters: 马, 246831@qq.com, 1234, mxjmjs9229.., mxjmjs9229..</td>
+<td></td>
+<td>15</td>
+<td>test.testName@f5f2bb7</td></tr>
+<tr>
+<td title='test.testName.testAddMessage3()'><b>testAddMessage3</b><br>Test class: test.testName<br>Parameters: 马, 246831@qq.com, 123A, mxjmjs9229.., mxjmjs9229..</td>
+<td></td>
+<td>15</td>
+<td>test.testName@f5f2bb7</td></tr>
+<tr>
+<td title='test.testName.testAddMessage3()'><b>testAddMessage3</b><br>Test class: test.testName<br>Parameters: 马, 246831@qq.com, 1234马, mxjmjs9229.., mxjmjs9229..</td>
+<td></td>
+<td>15</td>
+<td>test.testName@f5f2bb7</td></tr>
+<tr>
+<td title='test.testName.testAddMessage3()'><b>testAddMessage3</b><br>Test class: test.testName<br>Parameters: 马, 246831@qq.com, 12., mxjmjs9229.., mxjmjs9229..</td>
+<td></td>
+<td>15</td>
+<td>test.testName@f5f2bb7</td></tr>
+<tr>
+<td title='test.testName.testAddMessage3()'><b>testAddMessage3</b><br>Test class: test.testName<br>Parameters: 马, 246831@qq.com, 马., mxjmjs9229.., mxjmjs9229..</td>
+<td></td>
+<td>15</td>
+<td>test.testName@f5f2bb7</td></tr>
+<tr>
+<td title='test.testName.testAddMessage3()'><b>testAddMessage3</b><br>Test class: test.testName<br>Parameters: 马, 246831@qq.com, 马123a., mxjmjs9229.., mxjmjs9229..</td>
+<td></td>
+<td>15</td>
+<td>test.testName@f5f2bb7</td></tr>
+<tr>
+<td title='test.testName.testAddMessage3()'><b>testAddMessage3</b><br>Test class: test.testName<br>Parameters: 马, 246831@qq.com, #, mxjmjs9229.., mxjmjs9229..</td>
+<td></td>
+<td>15</td>
+<td>test.testName@f5f2bb7</td></tr>
+<tr>
+<td title='test.testName.testAddMessage3()'><b>testAddMessage3</b><br>Test class: test.testName<br>Parameters: 马, 246831@qq.com, 1234#, mxjmjs9229.., mxjmjs9229..</td>
+<td></td>
+<td>15</td>
+<td>test.testName@f5f2bb7</td></tr>
+<tr>
+<td title='test.testName.testAddMessage3()'><b>testAddMessage3</b><br>Test class: test.testName<br>Parameters: 马, 246831@qq.com, majiashuo, 123456, 123456</td>
+<td></td>
+<td>15</td>
+<td>test.testName@f5f2bb7</td></tr>
+<tr>
+<td title='test.testPasswd.testAddMessage4()'><b>testAddMessage4</b><br>Test class: test.testPasswd<br>Parameters: 马, 246831@qq.com, majiashuo, m, m</td>
+<td></td>
+<td>15</td>
+<td>test.testPasswd@64c64813</td></tr>
+<tr>
+<td title='test.testPasswd.testAddMessage4()'><b>testAddMessage4</b><br>Test class: test.testPasswd<br>Parameters: 马, 246831@qq.com, majiashuo, m1, m1</td>
+<td></td>
+<td>15</td>
+<td>test.testPasswd@64c64813</td></tr>
+<tr>
+<td title='test.testPasswd.testAddMessage4()'><b>testAddMessage4</b><br>Test class: test.testPasswd<br>Parameters: 马, 246831@qq.com, majiashuo, m., m.</td>
+<td></td>
+<td>15</td>
+<td>test.testPasswd@64c64813</td></tr>
+<tr>
+<td title='test.testPasswd.testAddMessage4()'><b>testAddMessage4</b><br>Test class: test.testPasswd<br>Parameters: 马, 246831@qq.com, majiashuo, m, a</td>
+<td></td>
+<td>15</td>
+<td>test.testPasswd@64c64813</td></tr>
+<tr>
+<td title='test.testPasswd.testAddMessage4()'><b>testAddMessage4</b><br>Test class: test.testPasswd<br>Parameters: 马, 246831@qq.com, majiashuo, 马, 马</td>
+<td></td>
+<td>15</td>
+<td>test.testPasswd@64c64813</td></tr>
+<tr>
+<td title='test.testPasswd.testAddMessage4()'><b>testAddMessage4</b><br>Test class: test.testPasswd<br>Parameters: 马, 246831@qq.com, majiashuo, #, #</td>
+<td></td>
+<td>15</td>
+<td>test.testPasswd@64c64813</td></tr>
+<tr>
+<td title='test.testPasswd.testAddMessage4()'><b>testAddMessage4</b><br>Test class: test.testPasswd<br>Parameters: 马, 246831@qq.com, majiashuo, 1, 1</td>
+<td></td>
+<td>15</td>
+<td>test.testPasswd@64c64813</td></tr>
+<tr>
+<td title='test.testPasswd.testAddMessage4()'><b>testAddMessage4</b><br>Test class: test.testPasswd<br>Parameters: 马, 246831@qq.com, majiashuo, 111111111111111111111111111111111111111111111, 111111111111111111111111111111111111111111111</td>
+<td></td>
+<td>15</td>
+<td>test.testPasswd@64c64813</td></tr>
+<tr>
+<td title='test.testPasswd.testAddMessage4()'><b>testAddMessage4</b><br>Test class: test.testPasswd<br>Parameters: 马, 246831@qq.com, majiashuo, 1., 1.</td>
+<td></td>
+<td>15</td>
+<td>test.testPasswd@64c64813</td></tr>
+<tr>
+<td title='test.testPasswd.testAddMessage4()'><b>testAddMessage4</b><br>Test class: test.testPasswd<br>Parameters: 马, 246831@qq.com, majiashuo, mxjmjs9229.., mxjmjs9229..</td>
+<td></td>
+<td>15</td>
+<td>test.testPasswd@64c64813</td></tr>
+<tr>
+<td title='test.testPasswd.testAddMessage4()'><b>testAddMessage4</b><br>Test class: test.testPasswd<br>Parameters: 马, 246831@qq.com, majiashuo, 123456, 123456</td>
+<td></td>
+<td>15</td>
+<td>test.testPasswd@64c64813</td></tr>
+<tr>
 <td title='test.testAddShopping.testAddShoppings()'><b>testAddShoppings</b><br>Test class: test.testAddShopping</td>
 <td></td>
-<td>34</td>
-<td>test.testAddShopping@5f150435</td></tr>
+<td>32</td>
+<td>test.testAddShopping@21a06946</td></tr>
 <tr>
 <td title='test.testDeleteAddress.testDeleteAddresses()'><b>testDeleteAddresses</b><br>Test class: test.testDeleteAddress</td>
 <td></td>
 <td>0</td>
-<td>test.testDeleteAddress@2ac1fdc4</td></tr>
+<td>test.testDeleteAddress@483bf400</td></tr>
 <tr>
 <td title='test.testDeleteShopping.testDeleteShoppings()'><b>testDeleteShoppings</b><br>Test class: test.testDeleteShopping</td>
 <td></td>
-<td>12</td>
-<td>test.testDeleteShopping@50cbc42f</td></tr>
+<td>11</td>
+<td>test.testDeleteShopping@326de728</td></tr>
 <tr>
 <td title='test.Login.testLogin()'><b>testLogin</b><br>Test class: test.Login</td>
 <td></td>
-<td>12</td>
-<td>test.Login@387c703b</td></tr>
+<td>11</td>
+<td>test.Login@50cbc42f</td></tr>
 <tr>
-<td title='test.testMassage.testLogin()'><b>testLogin</b><br>Test class: test.testMassage</td>
+<td title='test.testNickname.testLogin()'><b>testLogin</b><br>Test class: test.testNickname</td>
 <td></td>
 <td>11</td>
-<td>test.testMassage@224aed64</td></tr>
+<td>test.testNickname@75412c2f</td></tr>
+<tr>
+<td title='test.testEmail.testLogin()'><b>testLogin</b><br>Test class: test.testEmail</td>
+<td></td>
+<td>11</td>
+<td>test.testEmail@13b6d03</td></tr>
+<tr>
+<td title='test.testName.testLogin()'><b>testLogin</b><br>Test class: test.testName</td>
+<td></td>
+<td>11</td>
+<td>test.testName@f5f2bb7</td></tr>
+<tr>
+<td title='test.testPasswd.testLogin()'><b>testLogin</b><br>Test class: test.testPasswd</td>
+<td></td>
+<td>11</td>
+<td>test.testPasswd@64c64813</td></tr>
 <tr>
 <td title='test.testAddAddress.testLogin()'><b>testLogin</b><br>Test class: test.testAddAddress</td>
 <td></td>
-<td>11</td>
-<td>test.testAddAddress@71e7a66b</td></tr>
+<td>15</td>
+<td>test.testAddAddress@3ecf72fd</td></tr>
 <tr>
 <td title='test.testDeleteAddress.testLogin()'><b>testLogin</b><br>Test class: test.testDeleteAddress</td>
 <td></td>
 <td>12</td>
-<td>test.testDeleteAddress@2ac1fdc4</td></tr>
+<td>test.testDeleteAddress@483bf400</td></tr>
 <tr>
 <td title='test.testAddShopping.testLogin()'><b>testLogin</b><br>Test class: test.testAddShopping</td>
 <td></td>
-<td>15</td>
-<td>test.testAddShopping@5f150435</td></tr>
+<td>12</td>
+<td>test.testAddShopping@21a06946</td></tr>
 <tr>
 <td title='test.testDeleteShopping.testLogin()'><b>testLogin</b><br>Test class: test.testDeleteShopping</td>
 <td></td>
-<td>17</td>
-<td>test.testDeleteShopping@50cbc42f</td></tr>
+<td>10</td>
+<td>test.testDeleteShopping@326de728</td></tr>
 <tr>
 <td title='test.testPayNone.testLogin()'><b>testLogin</b><br>Test class: test.testPayNone</td>
 <td></td>
-<td>12</td>
-<td>test.testPayNone@75412c2f</td></tr>
+<td>11</td>
+<td>test.testPayNone@25618e91</td></tr>
 <tr>
 <td title='test.testPayOne.testLogin()'><b>testLogin</b><br>Test class: test.testPayOne</td>
 <td></td>
-<td>13</td>
-<td>test.testPayOne@282ba1e</td></tr>
+<td>11</td>
+<td>test.testPayOne@7a92922</td></tr>
 <tr>
 <td title='test.testPayAll.testLogin()'><b>testLogin</b><br>Test class: test.testPayAll</td>
 <td></td>
-<td>14</td>
-<td>test.testPayAll@13b6d03</td></tr>
+<td>11</td>
+<td>test.testPayAll@71f2a7d5</td></tr>
 <tr>
 <td title='test.testPayNone.testPayNones()'><b>testPayNones</b><br>Test class: test.testPayNone</td>
 <td></td>
 <td>14</td>
-<td>test.testPayNone@75412c2f</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-skipped'>
-<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='test.testMassage.testAddMessage()'><b>testAddMessage</b><br>Test class: test.testMassage</td>
-<td><div><pre>java.lang.RuntimeException: java.lang.ArrayIndexOutOfBoundsException: 0
-Caused by: java.lang.ArrayIndexOutOfBoundsException: 0
-	at com.webtest.dataprovider.FileDataProvider.getTestDataByTxt(FileDataProvider.java:59)
-	at com.webtest.dataprovider.NSDataProvicer.getTxt(NSDataProvicer.java:13)
-	... 19 more
-... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1632670136", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1632670136'><pre>java.lang.RuntimeException: java.lang.ArrayIndexOutOfBoundsException: 0
-	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:162)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:430)
-	at org.testng.internal.Invoker.handleParameters(Invoker.java:1270)
-	at org.testng.internal.Invoker.createParameters(Invoker.java:985)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1075)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.testng.TestNG.privateMain(TestNG.java:1355)
-	at org.testng.TestNG.main(TestNG.java:1324)
-Caused by: java.lang.ArrayIndexOutOfBoundsException: 0
-	at com.webtest.dataprovider.FileDataProvider.getTestDataByTxt(FileDataProvider.java:59)
-	at com.webtest.dataprovider.NSDataProvicer.getTxt(NSDataProvicer.java:13)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:136)
-	... 19 more
-</pre></div></td>
-<td>0</td>
-<td>test.testMassage@224aed64</td></tr>
+<td>test.testPayNone@25618e91</td></tr>
 </table><p>
 </body>
 </html>
