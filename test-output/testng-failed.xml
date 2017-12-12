@@ -1,36 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [s1]" parallel="methods">
-  <test name="Test(failed)" parallel="methods">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
-      <class name="test.Massage">
-        <methods>
-          <include name="testAddMessage" invocation-numbers="0 1 2 3 4 5 6 7 8"/>
-        </methods>
-      </class> <!-- test.Massage -->
-      <class name="test.Shopping">
-        <methods>
-          <include name="testAddShopping"/>
-          <include name="testDeleteShopping"/>
-        </methods>
-      </class> <!-- test.Shopping -->
-      <class name="test.Address">
-        <methods>
-          <include name="testAddAddress" invocation-numbers="0 1 2 3 4"/>
-          <include name="testDeleteAddress"/>
-        </methods>
-      </class> <!-- test.Address -->
-      <class name="test.PayShopping">
-        <methods>
-          <include name="testPay"/>
-        </methods>
-      </class> <!-- test.PayShopping -->
-      <class name="test.Login">
+      <class name="test.testMassage">
         <methods>
           <include name="doAfterMethod"/>
+          <include name="testLogin"/>
+          <include name="testAddMessage"/>
           <include name="doBeforeMethod"/>
         </methods>
-      </class> <!-- test.Login -->
+      </class> <!-- test.testMassage -->
     </classes>
-  </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [s1] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

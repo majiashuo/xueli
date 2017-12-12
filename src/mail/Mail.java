@@ -22,8 +22,7 @@ import org.testng.annotations.Test;
       * @param args
      * @throws Exception 
      */
-     
-//  @Test 
+      @Test 
      public void send()  throws Exception {
     	 Properties prop = new Properties();
     	 prop.setProperty("mail.host", "smtp.163.com");

@@ -1,36 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [s1]" parallel="methods">
-  <test name="Test(failed)" parallel="methods">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [s1]" parallel="none">
+  <test name="s1(failed)" parallel="none">
     <classes>
-      <class name="test.Massage">
-        <methods>
-          <include name="testAddMessage"/>
-        </methods>
-      </class> <!-- test.Massage -->
-      <class name="test.Shopping">
-        <methods>
-          <include name="testAddShopping"/>
-          <include name="testDeleteShopping"/>
-        </methods>
-      </class> <!-- test.Shopping -->
-      <class name="test.Address">
+      <class name="test.testAddAddress">
         <methods>
           <include name="testLogin"/>
-          <include name="testAddAddress"/>
-          <include name="testDeleteAddress"/>
+          <include name="testAddAddresses" invocation-numbers="0 1 2 3 4"/>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
         </methods>
-      </class> <!-- test.Address -->
-      <class name="test.PayShopping">
+      </class> <!-- test.testAddAddress -->
+      <class name="test.testPayAll">
         <methods>
-          <include name="testPay"/>
+          <include name="testPayAlls"/>
+          <include name="doAfterMethod"/>
+          <include name="testLogin"/>
+          <include name="doBeforeMethod"/>
         </methods>
-      </class> <!-- test.PayShopping -->
+      </class> <!-- test.testPayAll -->
+      <class name="test.testAddShopping">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- test.testAddShopping -->
+      <class name="test.testMassage">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="testLogin"/>
+          <include name="testAddMessage"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- test.testMassage -->
+      <class name="test.testDeleteAddress">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- test.testDeleteAddress -->
+      <class name="test.testPayNone">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- test.testPayNone -->
+      <class name="test.testPayOne">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="testLogin"/>
+          <include name="testPayOnes"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- test.testPayOne -->
       <class name="test.Login">
         <methods>
-          <include name="testLogin"/>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
         </methods>
       </class> <!-- test.Login -->
+      <class name="test.testDeleteShopping">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- test.testDeleteShopping -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- s1(failed) -->
 </suite> <!-- Failed suite [s1] -->

@@ -2,16 +2,24 @@
 
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
-<suite name="s1"  parallel="methods" verbose="1">
-  <test name="Test">
-    <classes>
-      <class name="test.Login"/>
-      <class name="test.Address"/>
-      <class name="test.Massage"/>
-      <class name="test.PayShopping"/>
-      <class name="test.Shopping"/>
-    </classes>
-  </test> <!-- Test -->
+<suite name="s1" verbose="1">
+    <listeners>
+        <listener class-name="listener.WebtestListener"></listener>
+    </listeners>
+	<test name="s1">
+		<classes>
+		   <class name="test.Login"></class>
+           <class name="test.testMassage"></class>
+           <!-- <class name="test.testAddAddress"></class>
+           <class name="test.testDeleteAddress"></class>
+           <class name="test.testAddShopping"></class>
+           <class name="test.testDeleteShopping"></class>
+           <class name="test.testPayNone"></class>
+           <class name="test.testPayOne"></class>
+           <class name="test.testPayAll"></class> -->
+		</classes>
+
+	</test>
 </suite>
 
 

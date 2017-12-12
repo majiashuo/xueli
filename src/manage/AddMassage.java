@@ -9,7 +9,7 @@ public AddMassage(WebDriverEngine webtest) {
 	this.webtest = webtest;
 	}
 public void input(String nickname,String email,String realName,String password,String repassword) throws InterruptedException {
-	Thread.sleep(3000);
+	Thread.sleep(5000);
 	webtest.click("link=majiashuo");
 	webtest.typeAndClear("name=nickname",nickname);
 	webtest.click("xpath=//input[@value='男']");
