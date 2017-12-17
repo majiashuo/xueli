@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>s1</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>14/3/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>59/3/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Dec 12 15:23:15 CST 2017</td>
+<td>Started on:</td><td>Sun Dec 17 10:51:00 CST 2017</td>
 </tr>
-<tr><td>Total time:</td><td>240 seconds (240083 ms)</td>
+<tr><td>Total time:</td><td>1260 seconds (1260366 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,16 +75,34 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='test.testEmail.testAddMessage2()'><b>testAddMessage2</b><br>Test class: test.testEmail</td>
-<td><div><pre>org.testng.TestNGException: 
-The data provider is trying to pass 1 parameters but the method test.testEmail#testAddMessage2 takes 5 and TestNG is unable in inject a suitable object
-Caused by: java.lang.ArrayIndexOutOfBoundsException: 1
-	... 17 more
-... Removed 19 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace347091104", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace347091104'><pre>org.testng.TestNGException: 
-The data provider is trying to pass 1 parameters but the method test.testEmail#testAddMessage2 takes 5 and TestNG is unable in inject a suitable object
-	at org.testng.internal.Invoker.injectParameters(Invoker.java:1249)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1118)
+<td title='test.testAddAddress.testAddAddresses()'><b>testAddAddresses</b><br>Test class: test.testAddAddress<br>Parameters: 小红, 河北省, 衡水市, 深州, 30号, 15732159232, 053800</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Cannot locate option with value: 深州
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T16:15:40.131Z&apos;
+System info: host: &apos;火乐乐的电脑&apos;, ip: &apos;169.254.52.63&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByValue(Select.java:209)
+	at com.webtest.core.WebDriverEngine.selectByValue(WebDriverEngine.java:208)
+	at manage.AddAddress.input(AddAddress.java:22)
+	at test.testAddAddress.testAddAddresses(testAddAddress.java:21)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1187410086", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1187410086'><pre>org.openqa.selenium.NoSuchElementException: Cannot locate option with value: 深州
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T16:15:40.131Z&apos;
+System info: host: &apos;火乐乐的电脑&apos;, ip: &apos;169.254.52.63&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByValue(Select.java:209)
+	at com.webtest.core.WebDriverEngine.selectByValue(WebDriverEngine.java:208)
+	at manage.AddAddress.input(AddAddress.java:22)
+	at test.testAddAddress.testAddAddresses(testAddAddress.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
 	at org.testng.TestRunner.privateRun(TestRunner.java:774)
@@ -101,23 +119,52 @@ The data provider is trying to pass 1 parameters but the method test.testEmail#t
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: java.lang.ArrayIndexOutOfBoundsException: 1
-	at org.testng.internal.Invoker.injectParameters(Invoker.java:1245)
-	... 17 more
 </pre></div></td>
-<td>0</td>
-<td>test.testEmail@d2cc05a</td></tr>
+<td>28</td>
+<td>test.testAddAddress@51565ec2</td></tr>
 <tr>
-<td title='test.testName.testAddMessage3()'><b>testAddMessage3</b><br>Test class: test.testName</td>
-<td><div><pre>org.testng.TestNGException: 
-The data provider is trying to pass 1 parameters but the method test.testName#testAddMessage3 takes 5 and TestNG is unable in inject a suitable object
-Caused by: java.lang.ArrayIndexOutOfBoundsException: 1
-	... 17 more
-... Removed 19 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2083217543", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2083217543'><pre>org.testng.TestNGException: 
-The data provider is trying to pass 1 parameters but the method test.testName#testAddMessage3 takes 5 and TestNG is unable in inject a suitable object
-	at org.testng.internal.Invoker.injectParameters(Invoker.java:1249)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1118)
+<td title='test.testPayAll.testPayAlls()'><b>testPayAlls</b><br>Test class: test.testPayAll</td>
+<td><div><pre>org.openqa.selenium.UnhandledAlertException: : 
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T16:15:40.131Z&apos;
+System info: host: &apos;火乐乐的电脑&apos;, ip: &apos;169.254.52.63&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\火乐乐\AppData\Local\Temp\rust_mozprofile.CxueIdD8Waui, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0.3, platformVersion=10.0, moz:processID=6540, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 50576224-a963-429c-b3f6-4d7a8c458347
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:118)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:643)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:472)
+	at com.webtest.core.WebDriverEngine.closeWindow(WebDriverEngine.java:260)
+	at manage.Pay.payAll(Pay.java:20)
+	at test.testPayAll.testPayAlls(testPayAll.java:19)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace626626764", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace626626764'><pre>org.openqa.selenium.UnhandledAlertException: : 
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T16:15:40.131Z&apos;
+System info: host: &apos;火乐乐的电脑&apos;, ip: &apos;169.254.52.63&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\火乐乐\AppData\Local\Temp\rust_mozprofile.CxueIdD8Waui, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0.3, platformVersion=10.0, moz:processID=6540, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 50576224-a963-429c-b3f6-4d7a8c458347
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:118)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:643)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:472)
+	at com.webtest.core.WebDriverEngine.closeWindow(WebDriverEngine.java:260)
+	at manage.Pay.payAll(Pay.java:20)
+	at test.testPayAll.testPayAlls(testPayAll.java:19)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
 	at org.testng.TestRunner.privateRun(TestRunner.java:774)
@@ -134,23 +181,52 @@ The data provider is trying to pass 1 parameters but the method test.testName#te
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: java.lang.ArrayIndexOutOfBoundsException: 1
-	at org.testng.internal.Invoker.injectParameters(Invoker.java:1245)
-	... 17 more
 </pre></div></td>
-<td>0</td>
-<td>test.testName@4f933fd1</td></tr>
+<td>19</td>
+<td>test.testPayAll@5c7fa833</td></tr>
 <tr>
-<td title='test.testPasswd.testAddMessage4()'><b>testAddMessage4</b><br>Test class: test.testPasswd</td>
-<td><div><pre>org.testng.TestNGException: 
-The data provider is trying to pass 1 parameters but the method test.testPasswd#testAddMessage4 takes 5 and TestNG is unable in inject a suitable object
-Caused by: java.lang.ArrayIndexOutOfBoundsException: 1
-	... 17 more
-... Removed 19 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1337829755", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1337829755'><pre>org.testng.TestNGException: 
-The data provider is trying to pass 1 parameters but the method test.testPasswd#testAddMessage4 takes 5 and TestNG is unable in inject a suitable object
-	at org.testng.internal.Invoker.injectParameters(Invoker.java:1249)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1118)
+<td title='test.testPayOne.testPayOnes()'><b>testPayOnes</b><br>Test class: test.testPayOne</td>
+<td><div><pre>org.openqa.selenium.UnhandledAlertException: : 
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T16:15:40.131Z&apos;
+System info: host: &apos;火乐乐的电脑&apos;, ip: &apos;169.254.52.63&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\火乐乐\AppData\Local\Temp\rust_mozprofile.BjLW90nrkYJj, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0.3, platformVersion=10.0, moz:processID=4780, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: cb300336-71ed-4448-8ec8-d4c709ddbfcc
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:118)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:643)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:472)
+	at com.webtest.core.WebDriverEngine.closeWindow(WebDriverEngine.java:260)
+	at manage.Pay.pay(Pay.java:32)
+	at test.testPayOne.testPayOnes(testPayOne.java:19)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace478182173", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace478182173'><pre>org.openqa.selenium.UnhandledAlertException: : 
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T16:15:40.131Z&apos;
+System info: host: &apos;火乐乐的电脑&apos;, ip: &apos;169.254.52.63&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\火乐乐\AppData\Local\Temp\rust_mozprofile.BjLW90nrkYJj, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0.3, platformVersion=10.0, moz:processID=4780, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: cb300336-71ed-4448-8ec8-d4c709ddbfcc
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:118)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:643)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:472)
+	at com.webtest.core.WebDriverEngine.closeWindow(WebDriverEngine.java:260)
+	at manage.Pay.pay(Pay.java:32)
+	at test.testPayOne.testPayOnes(testPayOne.java:19)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
 	at org.testng.TestRunner.privateRun(TestRunner.java:774)
@@ -167,12 +243,9 @@ The data provider is trying to pass 1 parameters but the method test.testPasswd#
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: java.lang.ArrayIndexOutOfBoundsException: 1
-	at org.testng.internal.Invoker.injectParameters(Invoker.java:1245)
-	... 17 more
 </pre></div></td>
-<td>0</td>
-<td>test.testPasswd@1753acfe</td></tr>
+<td>17</td>
+<td>test.testPayOne@457e2f02</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -182,75 +255,300 @@ Caused by: java.lang.ArrayIndexOutOfBoundsException: 1
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<td title='test.testAddAddress.testAddAddresses()'><b>testAddAddresses</b><br>Test class: test.testAddAddress<br>Parameters: 马佳烁, 浙江省, 杭州市, 临安市, 40号,  , 123456</td>
+<td></td>
+<td>43</td>
+<td>test.testAddAddress@51565ec2</td></tr>
+<tr>
+<td title='test.testAddAddress.testAddAddresses()'><b>testAddAddresses</b><br>Test class: test.testAddAddress<br>Parameters: 张晓明, 黑龙江省, 哈尔滨市, 松北区, 14栋3号, 139, 234554</td>
+<td></td>
+<td>43</td>
+<td>test.testAddAddress@51565ec2</td></tr>
+<tr>
+<td title='test.testAddAddress.testAddAddresses()'><b>testAddAddresses</b><br>Test class: test.testAddAddress<br>Parameters: 李晓红, 福建省, 福州市, 鼓楼区, 2栋工业, 15532155678, 890890</td>
+<td></td>
+<td>43</td>
+<td>test.testAddAddress@51565ec2</td></tr>
+<tr>
+<td title='test.testAddAddress.testAddAddresses()'><b>testAddAddresses</b><br>Test class: test.testAddAddress<br>Parameters: 张婷婷, 山东省, 济南市, 天桥区, 3号写字楼, 18032834432, 234678</td>
+<td></td>
+<td>44</td>
+<td>test.testAddAddress@51565ec2</td></tr>
+<tr>
+<td title='test.testAddAddress.testAddAddresses()'><b>testAddAddresses</b><br>Test class: test.testAddAddress<br>Parameters:  , 上海市, 上海市, 黄浦区, 邮局, 15523456654, 888999</td>
+<td></td>
+<td>43</td>
+<td>test.testAddAddress@51565ec2</td></tr>
+<tr>
 <td title='test.testNickname.testAddMessage()'><b>testAddMessage</b><br>Test class: test.testNickname<br>Parameters: 马, 246831@qq.com, majiashuo, mxjmjs9229.., mxjmjs9229..</td>
 <td></td>
-<td>15</td>
-<td>test.testNickname@5419f379</td></tr>
+<td>16</td>
+<td>test.testNickname@2a2d45ba</td></tr>
 <tr>
 <td title='test.testNickname.testAddMessage()'><b>testAddMessage</b><br>Test class: test.testNickname<br>Parameters: 马1, 246831@qq.com, majiashuo, mxjmjs9229.., mxjmjs9229..</td>
 <td></td>
 <td>15</td>
-<td>test.testNickname@5419f379</td></tr>
+<td>test.testNickname@2a2d45ba</td></tr>
 <tr>
 <td title='test.testNickname.testAddMessage()'><b>testAddMessage</b><br>Test class: test.testNickname<br>Parameters: 马a, 246831@qq.com, majiashuo, mxjmjs9229.., mxjmjs9229..</td>
 <td></td>
 <td>15</td>
-<td>test.testNickname@5419f379</td></tr>
+<td>test.testNickname@2a2d45ba</td></tr>
 <tr>
 <td title='test.testNickname.testAddMessage()'><b>testAddMessage</b><br>Test class: test.testNickname<br>Parameters: 马., 246831@qq.com, majiashuo, mxjmjs9229.., mxjmjs9229..</td>
 <td></td>
 <td>15</td>
-<td>test.testNickname@5419f379</td></tr>
+<td>test.testNickname@2a2d45ba</td></tr>
 <tr>
 <td title='test.testNickname.testAddMessage()'><b>testAddMessage</b><br>Test class: test.testNickname<br>Parameters: 1a马., 246831@qq.com, majiashuo, mxjmjs9229.., mxjmjs9229..</td>
 <td></td>
 <td>15</td>
-<td>test.testNickname@5419f379</td></tr>
+<td>test.testNickname@2a2d45ba</td></tr>
 <tr>
 <td title='test.testNickname.testAddMessage()'><b>testAddMessage</b><br>Test class: test.testNickname<br>Parameters: 马马吗吗吗吗吗吗吗吗吗吗吗吗吗吗吗, 246831@qq.com, majiashuo, mxjmjs9229.., mxjmjs9229..</td>
 <td></td>
 <td>15</td>
-<td>test.testNickname@5419f379</td></tr>
+<td>test.testNickname@2a2d45ba</td></tr>
 <tr>
 <td title='test.testNickname.testAddMessage()'><b>testAddMessage</b><br>Test class: test.testNickname<br>Parameters: 1111111111111111111111111, 246831@qq.com, majiashuo, mxjmjs9229.., mxjmjs9229..</td>
 <td></td>
 <td>15</td>
-<td>test.testNickname@5419f379</td></tr>
+<td>test.testNickname@2a2d45ba</td></tr>
 <tr>
 <td title='test.testNickname.testAddMessage()'><b>testAddMessage</b><br>Test class: test.testNickname<br>Parameters: #, 246831@qq.com, majiashuo, mxjmjs9229.., mxjmjs9229..</td>
 <td></td>
 <td>15</td>
-<td>test.testNickname@5419f379</td></tr>
+<td>test.testNickname@2a2d45ba</td></tr>
 <tr>
 <td title='test.testNickname.testAddMessage()'><b>testAddMessage</b><br>Test class: test.testNickname<br>Parameters:  , 246831@qq.com, majiashuo, 123456, 123456</td>
 <td></td>
 <td>15</td>
-<td>test.testNickname@5419f379</td></tr>
+<td>test.testNickname@2a2d45ba</td></tr>
+<tr>
+<td title='test.testEmail.testAddMessage2()'><b>testAddMessage2</b><br>Test class: test.testEmail<br>Parameters: 马, 1, majiashuo, mxjmjs9229.., mxjmjs9229..</td>
+<td></td>
+<td>16</td>
+<td>test.testEmail@20e2cbe0</td></tr>
+<tr>
+<td title='test.testEmail.testAddMessage2()'><b>testAddMessage2</b><br>Test class: test.testEmail<br>Parameters: 马, 123@111.cn, majiashuo, mxjmjs9229.., mxjmjs9229..</td>
+<td></td>
+<td>15</td>
+<td>test.testEmail@20e2cbe0</td></tr>
+<tr>
+<td title='test.testEmail.testAddMessage2()'><b>testAddMessage2</b><br>Test class: test.testEmail<br>Parameters: 马, n, majiashuo, mxjmjs9229.., mxjmjs9229..</td>
+<td></td>
+<td>15</td>
+<td>test.testEmail@20e2cbe0</td></tr>
+<tr>
+<td title='test.testEmail.testAddMessage2()'><b>testAddMessage2</b><br>Test class: test.testEmail<br>Parameters: 马, #, majiashuo, mxjmjs9229.., mxjmjs9229..</td>
+<td></td>
+<td>15</td>
+<td>test.testEmail@20e2cbe0</td></tr>
+<tr>
+<td title='test.testEmail.testAddMessage2()'><b>testAddMessage2</b><br>Test class: test.testEmail<br>Parameters: 马, mjs@, majiashuo, mxjmjs9229.., mxjmjs9229..</td>
+<td></td>
+<td>15</td>
+<td>test.testEmail@20e2cbe0</td></tr>
+<tr>
+<td title='test.testEmail.testAddMessage2()'><b>testAddMessage2</b><br>Test class: test.testEmail<br>Parameters: 马, 1@www.co, majiashuo, mxjmjs9229.., mxjmjs9229..</td>
+<td></td>
+<td>15</td>
+<td>test.testEmail@20e2cbe0</td></tr>
+<tr>
+<td title='test.testEmail.testAddMessage2()'><b>testAddMessage2</b><br>Test class: test.testEmail<br>Parameters: 马, 134222323457@qq.com, majiashuo, mxjmjs9229.., mxjmjs9229..</td>
+<td></td>
+<td>15</td>
+<td>test.testEmail@20e2cbe0</td></tr>
+<tr>
+<td title='test.testEmail.testAddMessage2()'><b>testAddMessage2</b><br>Test class: test.testEmail<br>Parameters: 马, @qq.com, majiashuo, mxjmjs9229.., mxjmjs9229..</td>
+<td></td>
+<td>15</td>
+<td>test.testEmail@20e2cbe0</td></tr>
+<tr>
+<td title='test.testEmail.testAddMessage2()'><b>testAddMessage2</b><br>Test class: test.testEmail<br>Parameters: 马, 15369162047@qq.com, majiashuo, 123456, 123456</td>
+<td></td>
+<td>15</td>
+<td>test.testEmail@20e2cbe0</td></tr>
+<tr>
+<td title='test.testName.testAddMessage3()'><b>testAddMessage3</b><br>Test class: test.testName<br>Parameters: 马, 246831@qq.com, 1234, mxjmjs9229.., mxjmjs9229..</td>
+<td></td>
+<td>16</td>
+<td>test.testName@68be2bc2</td></tr>
+<tr>
+<td title='test.testName.testAddMessage3()'><b>testAddMessage3</b><br>Test class: test.testName<br>Parameters: 马, 246831@qq.com, 123A, mxjmjs9229.., mxjmjs9229..</td>
+<td></td>
+<td>15</td>
+<td>test.testName@68be2bc2</td></tr>
+<tr>
+<td title='test.testName.testAddMessage3()'><b>testAddMessage3</b><br>Test class: test.testName<br>Parameters: 马, 246831@qq.com, 1234马, mxjmjs9229.., mxjmjs9229..</td>
+<td></td>
+<td>15</td>
+<td>test.testName@68be2bc2</td></tr>
+<tr>
+<td title='test.testName.testAddMessage3()'><b>testAddMessage3</b><br>Test class: test.testName<br>Parameters: 马, 246831@qq.com, 12., mxjmjs9229.., mxjmjs9229..</td>
+<td></td>
+<td>15</td>
+<td>test.testName@68be2bc2</td></tr>
+<tr>
+<td title='test.testName.testAddMessage3()'><b>testAddMessage3</b><br>Test class: test.testName<br>Parameters: 马, 246831@qq.com, 马., mxjmjs9229.., mxjmjs9229..</td>
+<td></td>
+<td>15</td>
+<td>test.testName@68be2bc2</td></tr>
+<tr>
+<td title='test.testName.testAddMessage3()'><b>testAddMessage3</b><br>Test class: test.testName<br>Parameters: 马, 246831@qq.com, 马123a., mxjmjs9229.., mxjmjs9229..</td>
+<td></td>
+<td>15</td>
+<td>test.testName@68be2bc2</td></tr>
+<tr>
+<td title='test.testName.testAddMessage3()'><b>testAddMessage3</b><br>Test class: test.testName<br>Parameters: 马, 246831@qq.com, #, mxjmjs9229.., mxjmjs9229..</td>
+<td></td>
+<td>15</td>
+<td>test.testName@68be2bc2</td></tr>
+<tr>
+<td title='test.testName.testAddMessage3()'><b>testAddMessage3</b><br>Test class: test.testName<br>Parameters: 马, 246831@qq.com, 1234#, mxjmjs9229.., mxjmjs9229..</td>
+<td></td>
+<td>15</td>
+<td>test.testName@68be2bc2</td></tr>
+<tr>
+<td title='test.testName.testAddMessage3()'><b>testAddMessage3</b><br>Test class: test.testName<br>Parameters: 马, 246831@qq.com, majiashuo, 123456, 123456</td>
+<td></td>
+<td>15</td>
+<td>test.testName@68be2bc2</td></tr>
+<tr>
+<td title='test.testPasswd.testAddMessage4()'><b>testAddMessage4</b><br>Test class: test.testPasswd<br>Parameters: 马, 246831@qq.com, majiashuo, m, m</td>
+<td></td>
+<td>15</td>
+<td>test.testPasswd@675d3402</td></tr>
+<tr>
+<td title='test.testPasswd.testAddMessage4()'><b>testAddMessage4</b><br>Test class: test.testPasswd<br>Parameters: 马, 246831@qq.com, majiashuo, m1, m1</td>
+<td></td>
+<td>15</td>
+<td>test.testPasswd@675d3402</td></tr>
+<tr>
+<td title='test.testPasswd.testAddMessage4()'><b>testAddMessage4</b><br>Test class: test.testPasswd<br>Parameters: 马, 246831@qq.com, majiashuo, m., m.</td>
+<td></td>
+<td>15</td>
+<td>test.testPasswd@675d3402</td></tr>
+<tr>
+<td title='test.testPasswd.testAddMessage4()'><b>testAddMessage4</b><br>Test class: test.testPasswd<br>Parameters: 马, 246831@qq.com, majiashuo, m, a</td>
+<td></td>
+<td>15</td>
+<td>test.testPasswd@675d3402</td></tr>
+<tr>
+<td title='test.testPasswd.testAddMessage4()'><b>testAddMessage4</b><br>Test class: test.testPasswd<br>Parameters: 马, 246831@qq.com, majiashuo, 马, 马</td>
+<td></td>
+<td>15</td>
+<td>test.testPasswd@675d3402</td></tr>
+<tr>
+<td title='test.testPasswd.testAddMessage4()'><b>testAddMessage4</b><br>Test class: test.testPasswd<br>Parameters: 马, 246831@qq.com, majiashuo, #, #</td>
+<td></td>
+<td>15</td>
+<td>test.testPasswd@675d3402</td></tr>
+<tr>
+<td title='test.testPasswd.testAddMessage4()'><b>testAddMessage4</b><br>Test class: test.testPasswd<br>Parameters: 马, 246831@qq.com, majiashuo, 1, 1</td>
+<td></td>
+<td>15</td>
+<td>test.testPasswd@675d3402</td></tr>
+<tr>
+<td title='test.testPasswd.testAddMessage4()'><b>testAddMessage4</b><br>Test class: test.testPasswd<br>Parameters: 马, 246831@qq.com, majiashuo, 111111111111111111111111111111111111111111111, 111111111111111111111111111111111111111111111</td>
+<td></td>
+<td>15</td>
+<td>test.testPasswd@675d3402</td></tr>
+<tr>
+<td title='test.testPasswd.testAddMessage4()'><b>testAddMessage4</b><br>Test class: test.testPasswd<br>Parameters: 马, 246831@qq.com, majiashuo, 1., 1.</td>
+<td></td>
+<td>15</td>
+<td>test.testPasswd@675d3402</td></tr>
+<tr>
+<td title='test.testPasswd.testAddMessage4()'><b>testAddMessage4</b><br>Test class: test.testPasswd<br>Parameters: 马, 246831@qq.com, majiashuo, mxjmjs9229.., mxjmjs9229..</td>
+<td></td>
+<td>15</td>
+<td>test.testPasswd@675d3402</td></tr>
+<tr>
+<td title='test.testPasswd.testAddMessage4()'><b>testAddMessage4</b><br>Test class: test.testPasswd<br>Parameters: 马, 246831@qq.com, majiashuo, 123456, 123456</td>
+<td></td>
+<td>15</td>
+<td>test.testPasswd@675d3402</td></tr>
+<tr>
+<td title='test.testAddShopping.testAddShoppings()'><b>testAddShoppings</b><br>Test class: test.testAddShopping</td>
+<td></td>
+<td>32</td>
+<td>test.testAddShopping@1593948d</td></tr>
+<tr>
+<td title='test.testDeleteAddress.testDeleteAddresses()'><b>testDeleteAddresses</b><br>Test class: test.testDeleteAddress</td>
+<td></td>
+<td>0</td>
+<td>test.testDeleteAddress@482f8f11</td></tr>
+<tr>
+<td title='test.testDeleteShopping.testDeleteShoppings()'><b>testDeleteShoppings</b><br>Test class: test.testDeleteShopping</td>
+<td></td>
+<td>11</td>
+<td>test.testDeleteShopping@7823a2f9</td></tr>
 <tr>
 <td title='test.Login.testLogin()'><b>testLogin</b><br>Test class: test.Login</td>
 <td></td>
-<td>11</td>
-<td>test.Login@4520ebad</td></tr>
+<td>13</td>
+<td>test.Login@7c16905e</td></tr>
 <tr>
 <td title='test.testNickname.testLogin()'><b>testLogin</b><br>Test class: test.testNickname</td>
 <td></td>
 <td>11</td>
-<td>test.testNickname@5419f379</td></tr>
+<td>test.testNickname@2a2d45ba</td></tr>
 <tr>
 <td title='test.testEmail.testLogin()'><b>testLogin</b><br>Test class: test.testEmail</td>
 <td></td>
 <td>11</td>
-<td>test.testEmail@d2cc05a</td></tr>
+<td>test.testEmail@20e2cbe0</td></tr>
 <tr>
 <td title='test.testName.testLogin()'><b>testLogin</b><br>Test class: test.testName</td>
 <td></td>
-<td>11</td>
-<td>test.testName@4f933fd1</td></tr>
+<td>12</td>
+<td>test.testName@68be2bc2</td></tr>
 <tr>
 <td title='test.testPasswd.testLogin()'><b>testLogin</b><br>Test class: test.testPasswd</td>
 <td></td>
 <td>11</td>
-<td>test.testPasswd@1753acfe</td></tr>
+<td>test.testPasswd@675d3402</td></tr>
+<tr>
+<td title='test.testAddAddress.testLogin()'><b>testLogin</b><br>Test class: test.testAddAddress</td>
+<td></td>
+<td>11</td>
+<td>test.testAddAddress@51565ec2</td></tr>
+<tr>
+<td title='test.testDeleteAddress.testLogin()'><b>testLogin</b><br>Test class: test.testDeleteAddress</td>
+<td></td>
+<td>11</td>
+<td>test.testDeleteAddress@482f8f11</td></tr>
+<tr>
+<td title='test.testAddShopping.testLogin()'><b>testLogin</b><br>Test class: test.testAddShopping</td>
+<td></td>
+<td>12</td>
+<td>test.testAddShopping@1593948d</td></tr>
+<tr>
+<td title='test.testDeleteShopping.testLogin()'><b>testLogin</b><br>Test class: test.testDeleteShopping</td>
+<td></td>
+<td>12</td>
+<td>test.testDeleteShopping@7823a2f9</td></tr>
+<tr>
+<td title='test.testPayNone.testLogin()'><b>testLogin</b><br>Test class: test.testPayNone</td>
+<td></td>
+<td>12</td>
+<td>test.testPayNone@4cc0edeb</td></tr>
+<tr>
+<td title='test.testPayOne.testLogin()'><b>testLogin</b><br>Test class: test.testPayOne</td>
+<td></td>
+<td>12</td>
+<td>test.testPayOne@457e2f02</td></tr>
+<tr>
+<td title='test.testPayAll.testLogin()'><b>testLogin</b><br>Test class: test.testPayAll</td>
+<td></td>
+<td>13</td>
+<td>test.testPayAll@5c7fa833</td></tr>
+<tr>
+<td title='test.testPayNone.testPayNones()'><b>testPayNones</b><br>Test class: test.testPayNone</td>
+<td></td>
+<td>13</td>
+<td>test.testPayNone@4cc0edeb</td></tr>
 </table><p>
 </body>
 </html>

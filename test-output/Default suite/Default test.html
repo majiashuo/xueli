@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>10/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Dec 12 15:30:04 CST 2017</td>
+<td>Started on:</td><td>Sun Dec 17 10:41:50 CST 2017</td>
 </tr>
-<tr><td>Total time:</td><td>160 seconds (160047 ms)</td>
+<tr><td>Total time:</td><td>21 seconds (21113 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,63 +67,113 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='test.testEmail.testAddMessage2()'><b>testAddMessage2</b><br>Test class: test.testEmail<br>Parameters: 马, 1, majiashuo, mxjmjs9229.., mxjmjs9229..</td>
-<td></td>
-<td>15</td>
-<td>test.testEmail@36d4b5c</td></tr>
-<tr>
-<td title='test.testEmail.testAddMessage2()'><b>testAddMessage2</b><br>Test class: test.testEmail<br>Parameters: 马, 123@111.cn, majiashuo, mxjmjs9229.., mxjmjs9229..</td>
-<td></td>
-<td>15</td>
-<td>test.testEmail@36d4b5c</td></tr>
-<tr>
-<td title='test.testEmail.testAddMessage2()'><b>testAddMessage2</b><br>Test class: test.testEmail<br>Parameters: 马, n, majiashuo, mxjmjs9229.., mxjmjs9229..</td>
-<td></td>
-<td>15</td>
-<td>test.testEmail@36d4b5c</td></tr>
-<tr>
-<td title='test.testEmail.testAddMessage2()'><b>testAddMessage2</b><br>Test class: test.testEmail<br>Parameters: 马, #, majiashuo, mxjmjs9229.., mxjmjs9229..</td>
-<td></td>
-<td>15</td>
-<td>test.testEmail@36d4b5c</td></tr>
-<tr>
-<td title='test.testEmail.testAddMessage2()'><b>testAddMessage2</b><br>Test class: test.testEmail<br>Parameters: 马, mjs@, majiashuo, mxjmjs9229.., mxjmjs9229..</td>
-<td></td>
-<td>15</td>
-<td>test.testEmail@36d4b5c</td></tr>
-<tr>
-<td title='test.testEmail.testAddMessage2()'><b>testAddMessage2</b><br>Test class: test.testEmail<br>Parameters: 马, 1@www.co, majiashuo, mxjmjs9229.., mxjmjs9229..</td>
-<td></td>
-<td>15</td>
-<td>test.testEmail@36d4b5c</td></tr>
-<tr>
-<td title='test.testEmail.testAddMessage2()'><b>testAddMessage2</b><br>Test class: test.testEmail<br>Parameters: 马, 134222323457@qq.com, majiashuo, mxjmjs9229.., mxjmjs9229..</td>
-<td></td>
-<td>15</td>
-<td>test.testEmail@36d4b5c</td></tr>
-<tr>
-<td title='test.testEmail.testAddMessage2()'><b>testAddMessage2</b><br>Test class: test.testEmail<br>Parameters: 马, @qq.com, majiashuo, mxjmjs9229.., mxjmjs9229..</td>
-<td></td>
-<td>15</td>
-<td>test.testEmail@36d4b5c</td></tr>
-<tr>
-<td title='test.testEmail.testAddMessage2()'><b>testAddMessage2</b><br>Test class: test.testEmail<br>Parameters: 马, 15369162047@qq.com, majiashuo, 123456, 123456</td>
-<td></td>
-<td>15</td>
-<td>test.testEmail@36d4b5c</td></tr>
-<tr>
-<td title='test.testEmail.testLogin()'><b>testLogin</b><br>Test class: test.testEmail</td>
-<td></td>
-<td>11</td>
-<td>test.testEmail@36d4b5c</td></tr>
+<td title='mail.Mail.send()'><b>send</b><br>Test class: mail.Mail</td>
+<td><div><pre>com.sun.mail.util.MailConnectException: Couldn&apos;t connect to host, port: smtp.163.com, 25; timeout -1;
+  nested exception is:
+	java.net.ConnectException: Connection timed out: connect
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:2194)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:726)
+	at javax.mail.Service.connect(Service.java:366)
+	at javax.mail.Service.connect(Service.java:246)
+	at javax.mail.Service.connect(Service.java:267)
+	at mail.Mail.send(Mail.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at com.sun.mail.util.SocketFetcher.createSocket(SocketFetcher.java:352)
+	at com.sun.mail.util.SocketFetcher.getSocket(SocketFetcher.java:238)
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:2160)
+	... 29 more
+</pre></div><a href='#' onClick='toggleBox("stack-trace1535634836", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1535634836'><pre>com.sun.mail.util.MailConnectException: Couldn&apos;t connect to host, port: smtp.163.com, 25; timeout -1;
+  nested exception is:
+	java.net.ConnectException: Connection timed out: connect
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:2194)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:726)
+	at javax.mail.Service.connect(Service.java:366)
+	at javax.mail.Service.connect(Service.java:246)
+	at javax.mail.Service.connect(Service.java:267)
+	at mail.Mail.send(Mail.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at com.sun.mail.util.SocketFetcher.createSocket(SocketFetcher.java:352)
+	at com.sun.mail.util.SocketFetcher.getSocket(SocketFetcher.java:238)
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:2160)
+	... 29 more
+</pre></div></td>
+<td>21</td>
+<td>mail.Mail@643b1d11</td></tr>
 </table><p>
 </body>
 </html>

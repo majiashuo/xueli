@@ -37,7 +37,7 @@ import org.testng.annotations.Test;
          //2、通过session得到transport对象
          Transport ts = session.getTransport();
          //3、连上邮件服务器
-         ts.connect("15369162047@163.com", "mxjmjs9229");
+         ts.connect("15369162047@163.com", "qiqi123");
          //4、创建邮件
          Message message = createAttachMail(session);
          //5、发送邮件
@@ -53,11 +53,10 @@ import org.testng.annotations.Test;
          //收件人
          message.setRecipient(Message.RecipientType.TO, new InternetAddress("2468060731@qq.com"));
          //邮件标题
-         message.setSubject("自动化测试完成提醒");
-         message.setText("自动化测试完成，测试结果请注意查收。"); 
+         message.setText("测试结果请注意查收。"); 
          //创建邮件正文，为了避免邮件正文中文乱码问题，需要使用charset=UTF-8指明字符编码
          MimeBodyPart text = new MimeBodyPart();
-         text.setContent("使用创建的带附件的邮件", "text/html;charset=UTF-8");        
+         text.setContent("发送给您的附件", "text/html;charset=UTF-8");        
          //创建邮件附件
         MimeBodyPart attach = new MimeBodyPart();
          DataHandler dh = new DataHandler(new FileDataSource("D:/eclipse-workspace/xueli/result.zip"));

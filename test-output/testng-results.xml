@@ -1,21 +1,110 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="10" passed="10">
+<testng-results skipped="0" failed="3" total="62" passed="59">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="160047" started-at="2017-12-12T07:30:04Z" finished-at="2017-12-12T07:32:44Z">
+  <suite name="s1" duration-ms="1260366" started-at="2017-12-17T02:51:00Z" finished-at="2017-12-17T03:12:00Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="160047" started-at="2017-12-12T07:30:04Z" finished-at="2017-12-12T07:32:44Z">
-      <class name="test.testEmail">
-        <test-method status="PASS" signature="doBeforeMethod()[pri:0, instance:test.testEmail@36d4b5c]" name="doBeforeMethod" is-config="true" duration-ms="7835" started-at="2017-12-12T15:30:04Z" finished-at="2017-12-12T15:30:12Z">
+    <test name="s1" duration-ms="1260366" started-at="2017-12-17T02:51:00Z" finished-at="2017-12-17T03:12:00Z">
+      <class name="test.testAddShopping">
+        <test-method status="PASS" signature="doBeforeMethod()[pri:0, instance:test.testAddShopping@1593948d]" name="doBeforeMethod" is-config="true" duration-ms="9192" started-at="2017-12-17T11:08:13Z" finished-at="2017-12-17T11:08:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doBeforeMethod -->
-        <test-method status="PASS" signature="testLogin()[pri:0, instance:test.testEmail@36d4b5c]" name="testLogin" duration-ms="11599" started-at="2017-12-12T15:30:12Z" finished-at="2017-12-12T15:30:23Z">
+        <test-method status="PASS" signature="testLogin()[pri:0, instance:test.testAddShopping@1593948d]" name="testLogin" duration-ms="12026" started-at="2017-12-17T11:08:22Z" finished-at="2017-12-17T11:08:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin -->
-        <test-method status="PASS" signature="testAddMessage2(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.testEmail@36d4b5c]" name="testAddMessage2" duration-ms="15876" started-at="2017-12-12T15:30:23Z" data-provider="email" depends-on-methods="test.testEmail.testLogin" finished-at="2017-12-12T15:30:39Z">
+        <test-method status="PASS" signature="testAddShoppings()[pri:0, instance:test.testAddShopping@1593948d]" name="testAddShoppings" duration-ms="32414" started-at="2017-12-17T11:08:34Z" depends-on-methods="test.testAddShopping.testLogin" finished-at="2017-12-17T11:09:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddShoppings -->
+        <test-method status="PASS" signature="doAfterMethod()[pri:0, instance:test.testAddShopping@1593948d]" name="doAfterMethod" is-config="true" duration-ms="3368" started-at="2017-12-17T11:09:07Z" finished-at="2017-12-17T11:09:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+      </class> <!-- test.testAddShopping -->
+      <class name="test.testPayAll">
+        <test-method status="PASS" signature="doBeforeMethod()[pri:0, instance:test.testPayAll@5c7fa833]" name="doBeforeMethod" is-config="true" duration-ms="14619" started-at="2017-12-17T11:11:10Z" finished-at="2017-12-17T11:11:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeMethod -->
+        <test-method status="PASS" signature="testLogin()[pri:0, instance:test.testPayAll@5c7fa833]" name="testLogin" duration-ms="13021" started-at="2017-12-17T11:11:25Z" finished-at="2017-12-17T11:11:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="FAIL" signature="testPayAlls()[pri:0, instance:test.testPayAll@5c7fa833]" name="testPayAlls" duration-ms="19883" started-at="2017-12-17T11:11:38Z" depends-on-methods="test.testPayAll.testLogin" finished-at="2017-12-17T11:11:58Z">
+          <exception class="org.openqa.selenium.UnhandledAlertException">
+            <message>
+              <![CDATA[: 
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: '火乐乐的电脑', ip: '169.254.52.63', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\火乐乐\AppData\Local\Temp\rust_mozprofile.CxueIdD8Waui, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0.3, platformVersion=10.0, moz:processID=6540, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 50576224-a963-429c-b3f6-4d7a8c458347]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.UnhandledAlertException: : 
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: '火乐乐的电脑', ip: '169.254.52.63', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\火乐乐\AppData\Local\Temp\rust_mozprofile.CxueIdD8Waui, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0.3, platformVersion=10.0, moz:processID=6540, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 50576224-a963-429c-b3f6-4d7a8c458347
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:118)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:643)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:472)
+	at com.webtest.core.WebDriverEngine.closeWindow(WebDriverEngine.java:260)
+	at manage.Pay.payAll(Pay.java:20)
+	at test.testPayAll.testPayAlls(testPayAll.java:19)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPayAlls -->
+        <test-method status="PASS" signature="doAfterMethod()[pri:0, instance:test.testPayAll@5c7fa833]" name="doAfterMethod" is-config="true" duration-ms="2596" started-at="2017-12-17T11:11:58Z" finished-at="2017-12-17T11:12:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+      </class> <!-- test.testPayAll -->
+      <class name="test.testEmail">
+        <test-method status="PASS" signature="doBeforeMethod()[pri:0, instance:test.testEmail@20e2cbe0]" name="doBeforeMethod" is-config="true" duration-ms="10237" started-at="2017-12-17T10:54:32Z" finished-at="2017-12-17T10:54:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeMethod -->
+        <test-method status="PASS" signature="testLogin()[pri:0, instance:test.testEmail@20e2cbe0]" name="testLogin" duration-ms="11756" started-at="2017-12-17T10:54:42Z" finished-at="2017-12-17T10:54:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="testAddMessage2(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.testEmail@20e2cbe0]" name="testAddMessage2" duration-ms="16185" started-at="2017-12-17T10:54:54Z" data-provider="email" depends-on-methods="test.testEmail.testLogin" finished-at="2017-12-17T10:55:10Z">
           <params>
             <param index="0">
               <value>
@@ -46,7 +135,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAddMessage2 -->
-        <test-method status="PASS" signature="testAddMessage2(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.testEmail@36d4b5c]" name="testAddMessage2" duration-ms="15390" started-at="2017-12-12T15:30:39Z" data-provider="email" depends-on-methods="test.testEmail.testLogin" finished-at="2017-12-12T15:30:54Z">
+        <test-method status="PASS" signature="testAddMessage2(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.testEmail@20e2cbe0]" name="testAddMessage2" duration-ms="15312" started-at="2017-12-17T10:55:10Z" data-provider="email" depends-on-methods="test.testEmail.testLogin" finished-at="2017-12-17T10:55:26Z">
           <params>
             <param index="0">
               <value>
@@ -77,7 +166,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAddMessage2 -->
-        <test-method status="PASS" signature="testAddMessage2(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.testEmail@36d4b5c]" name="testAddMessage2" duration-ms="15217" started-at="2017-12-12T15:30:54Z" data-provider="email" depends-on-methods="test.testEmail.testLogin" finished-at="2017-12-12T15:31:10Z">
+        <test-method status="PASS" signature="testAddMessage2(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.testEmail@20e2cbe0]" name="testAddMessage2" duration-ms="15497" started-at="2017-12-17T10:55:26Z" data-provider="email" depends-on-methods="test.testEmail.testLogin" finished-at="2017-12-17T10:55:41Z">
           <params>
             <param index="0">
               <value>
@@ -108,7 +197,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAddMessage2 -->
-        <test-method status="PASS" signature="testAddMessage2(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.testEmail@36d4b5c]" name="testAddMessage2" duration-ms="15219" started-at="2017-12-12T15:31:10Z" data-provider="email" depends-on-methods="test.testEmail.testLogin" finished-at="2017-12-12T15:31:25Z">
+        <test-method status="PASS" signature="testAddMessage2(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.testEmail@20e2cbe0]" name="testAddMessage2" duration-ms="15226" started-at="2017-12-17T10:55:41Z" data-provider="email" depends-on-methods="test.testEmail.testLogin" finished-at="2017-12-17T10:55:56Z">
           <params>
             <param index="0">
               <value>
@@ -139,7 +228,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAddMessage2 -->
-        <test-method status="PASS" signature="testAddMessage2(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.testEmail@36d4b5c]" name="testAddMessage2" duration-ms="15257" started-at="2017-12-12T15:31:25Z" data-provider="email" depends-on-methods="test.testEmail.testLogin" finished-at="2017-12-12T15:31:40Z">
+        <test-method status="PASS" signature="testAddMessage2(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.testEmail@20e2cbe0]" name="testAddMessage2" duration-ms="15232" started-at="2017-12-17T10:55:56Z" data-provider="email" depends-on-methods="test.testEmail.testLogin" finished-at="2017-12-17T10:56:12Z">
           <params>
             <param index="0">
               <value>
@@ -170,7 +259,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAddMessage2 -->
-        <test-method status="PASS" signature="testAddMessage2(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.testEmail@36d4b5c]" name="testAddMessage2" duration-ms="15374" started-at="2017-12-12T15:31:40Z" data-provider="email" depends-on-methods="test.testEmail.testLogin" finished-at="2017-12-12T15:31:55Z">
+        <test-method status="PASS" signature="testAddMessage2(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.testEmail@20e2cbe0]" name="testAddMessage2" duration-ms="15198" started-at="2017-12-17T10:56:12Z" data-provider="email" depends-on-methods="test.testEmail.testLogin" finished-at="2017-12-17T10:56:27Z">
           <params>
             <param index="0">
               <value>
@@ -201,7 +290,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAddMessage2 -->
-        <test-method status="PASS" signature="testAddMessage2(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.testEmail@36d4b5c]" name="testAddMessage2" duration-ms="15221" started-at="2017-12-12T15:31:55Z" data-provider="email" depends-on-methods="test.testEmail.testLogin" finished-at="2017-12-12T15:32:11Z">
+        <test-method status="PASS" signature="testAddMessage2(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.testEmail@20e2cbe0]" name="testAddMessage2" duration-ms="15334" started-at="2017-12-17T10:56:27Z" data-provider="email" depends-on-methods="test.testEmail.testLogin" finished-at="2017-12-17T10:56:42Z">
           <params>
             <param index="0">
               <value>
@@ -232,7 +321,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAddMessage2 -->
-        <test-method status="PASS" signature="testAddMessage2(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.testEmail@36d4b5c]" name="testAddMessage2" duration-ms="15346" started-at="2017-12-12T15:32:11Z" data-provider="email" depends-on-methods="test.testEmail.testLogin" finished-at="2017-12-12T15:32:26Z">
+        <test-method status="PASS" signature="testAddMessage2(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.testEmail@20e2cbe0]" name="testAddMessage2" duration-ms="15222" started-at="2017-12-17T10:56:42Z" data-provider="email" depends-on-methods="test.testEmail.testLogin" finished-at="2017-12-17T10:56:57Z">
           <params>
             <param index="0">
               <value>
@@ -263,7 +352,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAddMessage2 -->
-        <test-method status="PASS" signature="testAddMessage2(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.testEmail@36d4b5c]" name="testAddMessage2" duration-ms="15278" started-at="2017-12-12T15:32:26Z" data-provider="email" depends-on-methods="test.testEmail.testLogin" finished-at="2017-12-12T15:32:41Z">
+        <test-method status="PASS" signature="testAddMessage2(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.testEmail@20e2cbe0]" name="testAddMessage2" duration-ms="15317" started-at="2017-12-17T10:56:57Z" data-provider="email" depends-on-methods="test.testEmail.testLogin" finished-at="2017-12-17T10:57:13Z">
           <params>
             <param index="0">
               <value>
@@ -294,11 +383,1396 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAddMessage2 -->
-        <test-method status="PASS" signature="doAfterMethod()[pri:0, instance:test.testEmail@36d4b5c]" name="doAfterMethod" is-config="true" duration-ms="2408" started-at="2017-12-12T15:32:41Z" finished-at="2017-12-12T15:32:44Z">
+        <test-method status="PASS" signature="doAfterMethod()[pri:0, instance:test.testEmail@20e2cbe0]" name="doAfterMethod" is-config="true" duration-ms="2940" started-at="2017-12-17T10:57:13Z" finished-at="2017-12-17T10:57:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doAfterMethod -->
       </class> <!-- test.testEmail -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="test.testDeleteShopping">
+        <test-method status="PASS" signature="doBeforeMethod()[pri:0, instance:test.testDeleteShopping@7823a2f9]" name="doBeforeMethod" is-config="true" duration-ms="9186" started-at="2017-12-17T11:09:10Z" finished-at="2017-12-17T11:09:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeMethod -->
+        <test-method status="PASS" signature="testLogin()[pri:0, instance:test.testDeleteShopping@7823a2f9]" name="testLogin" duration-ms="12045" started-at="2017-12-17T11:09:19Z" finished-at="2017-12-17T11:09:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="testDeleteShoppings()[pri:0, instance:test.testDeleteShopping@7823a2f9]" name="testDeleteShoppings" duration-ms="11267" started-at="2017-12-17T11:09:31Z" depends-on-methods="test.testDeleteShopping.testLogin" finished-at="2017-12-17T11:09:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteShoppings -->
+        <test-method status="PASS" signature="doAfterMethod()[pri:0, instance:test.testDeleteShopping@7823a2f9]" name="doAfterMethod" is-config="true" duration-ms="3859" started-at="2017-12-17T11:09:43Z" finished-at="2017-12-17T11:09:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+      </class> <!-- test.testDeleteShopping -->
+      <class name="test.testNickname">
+        <test-method status="PASS" signature="doBeforeMethod()[pri:0, instance:test.testNickname@2a2d45ba]" name="doBeforeMethod" is-config="true" duration-ms="9740" started-at="2017-12-17T10:51:45Z" finished-at="2017-12-17T10:51:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeMethod -->
+        <test-method status="PASS" signature="testLogin()[pri:0, instance:test.testNickname@2a2d45ba]" name="testLogin" duration-ms="11687" started-at="2017-12-17T10:51:54Z" finished-at="2017-12-17T10:52:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="testAddMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.testNickname@2a2d45ba]" name="testAddMessage" duration-ms="16901" started-at="2017-12-17T10:52:06Z" data-provider="nickname" depends-on-methods="test.testNickname.testLogin" finished-at="2017-12-17T10:52:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[马]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[246831@qq.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[majiashuo]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[mxjmjs9229..]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[mxjmjs9229..]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddMessage -->
+        <test-method status="PASS" signature="testAddMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.testNickname@2a2d45ba]" name="testAddMessage" duration-ms="15290" started-at="2017-12-17T10:52:23Z" data-provider="nickname" depends-on-methods="test.testNickname.testLogin" finished-at="2017-12-17T10:52:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[马1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[246831@qq.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[majiashuo]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[mxjmjs9229..]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[mxjmjs9229..]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddMessage -->
+        <test-method status="PASS" signature="testAddMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.testNickname@2a2d45ba]" name="testAddMessage" duration-ms="15422" started-at="2017-12-17T10:52:38Z" data-provider="nickname" depends-on-methods="test.testNickname.testLogin" finished-at="2017-12-17T10:52:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[马a]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[246831@qq.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[majiashuo]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[mxjmjs9229..]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[mxjmjs9229..]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddMessage -->
+        <test-method status="PASS" signature="testAddMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.testNickname@2a2d45ba]" name="testAddMessage" duration-ms="15499" started-at="2017-12-17T10:52:54Z" data-provider="nickname" depends-on-methods="test.testNickname.testLogin" finished-at="2017-12-17T10:53:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[马.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[246831@qq.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[majiashuo]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[mxjmjs9229..]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[mxjmjs9229..]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddMessage -->
+        <test-method status="PASS" signature="testAddMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.testNickname@2a2d45ba]" name="testAddMessage" duration-ms="15263" started-at="2017-12-17T10:53:09Z" data-provider="nickname" depends-on-methods="test.testNickname.testLogin" finished-at="2017-12-17T10:53:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1a马.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[246831@qq.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[majiashuo]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[mxjmjs9229..]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[mxjmjs9229..]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddMessage -->
+        <test-method status="PASS" signature="testAddMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.testNickname@2a2d45ba]" name="testAddMessage" duration-ms="15336" started-at="2017-12-17T10:53:24Z" data-provider="nickname" depends-on-methods="test.testNickname.testLogin" finished-at="2017-12-17T10:53:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[马马吗吗吗吗吗吗吗吗吗吗吗吗吗吗吗]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[246831@qq.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[majiashuo]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[mxjmjs9229..]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[mxjmjs9229..]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddMessage -->
+        <test-method status="PASS" signature="testAddMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.testNickname@2a2d45ba]" name="testAddMessage" duration-ms="15548" started-at="2017-12-17T10:53:40Z" data-provider="nickname" depends-on-methods="test.testNickname.testLogin" finished-at="2017-12-17T10:53:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1111111111111111111111111]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[246831@qq.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[majiashuo]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[mxjmjs9229..]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[mxjmjs9229..]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddMessage -->
+        <test-method status="PASS" signature="testAddMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.testNickname@2a2d45ba]" name="testAddMessage" duration-ms="15282" started-at="2017-12-17T10:53:55Z" data-provider="nickname" depends-on-methods="test.testNickname.testLogin" finished-at="2017-12-17T10:54:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[#]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[246831@qq.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[majiashuo]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[mxjmjs9229..]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[mxjmjs9229..]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddMessage -->
+        <test-method status="PASS" signature="testAddMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.testNickname@2a2d45ba]" name="testAddMessage" duration-ms="15392" started-at="2017-12-17T10:54:11Z" data-provider="nickname" depends-on-methods="test.testNickname.testLogin" finished-at="2017-12-17T10:54:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[246831@qq.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[majiashuo]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddMessage -->
+        <test-method status="PASS" signature="doAfterMethod()[pri:0, instance:test.testNickname@2a2d45ba]" name="doAfterMethod" is-config="true" duration-ms="6150" started-at="2017-12-17T10:54:26Z" finished-at="2017-12-17T10:54:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+      </class> <!-- test.testNickname -->
+      <class name="test.testDeleteAddress">
+        <test-method status="PASS" signature="doBeforeMethod()[pri:0, instance:test.testDeleteAddress@482f8f11]" name="doBeforeMethod" is-config="true" duration-ms="9310" started-at="2017-12-17T11:07:49Z" finished-at="2017-12-17T11:07:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeMethod -->
+        <test-method status="PASS" signature="testLogin()[pri:0, instance:test.testDeleteAddress@482f8f11]" name="testLogin" duration-ms="11926" started-at="2017-12-17T11:07:58Z" finished-at="2017-12-17T11:08:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="testDeleteAddresses()[pri:0, instance:test.testDeleteAddress@482f8f11]" name="testDeleteAddresses" duration-ms="176" started-at="2017-12-17T11:08:10Z" depends-on-methods="test.testDeleteAddress.testLogin" finished-at="2017-12-17T11:08:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteAddresses -->
+        <test-method status="PASS" signature="doAfterMethod()[pri:0, instance:test.testDeleteAddress@482f8f11]" name="doAfterMethod" is-config="true" duration-ms="2975" started-at="2017-12-17T11:08:10Z" finished-at="2017-12-17T11:08:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+      </class> <!-- test.testDeleteAddress -->
+      <class name="test.testPasswd">
+        <test-method status="PASS" signature="doBeforeMethod()[pri:0, instance:test.testPasswd@675d3402]" name="doBeforeMethod" is-config="true" duration-ms="9711" started-at="2017-12-17T11:00:01Z" finished-at="2017-12-17T11:00:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeMethod -->
+        <test-method status="PASS" signature="testLogin()[pri:0, instance:test.testPasswd@675d3402]" name="testLogin" duration-ms="11994" started-at="2017-12-17T11:00:11Z" finished-at="2017-12-17T11:00:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="testAddMessage4(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.testPasswd@675d3402]" name="testAddMessage4" duration-ms="15890" started-at="2017-12-17T11:00:23Z" data-provider="passwd" depends-on-methods="test.testPasswd.testLogin" finished-at="2017-12-17T11:00:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[马]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[246831@qq.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[majiashuo]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[m]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[m]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddMessage4 -->
+        <test-method status="PASS" signature="testAddMessage4(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.testPasswd@675d3402]" name="testAddMessage4" duration-ms="15349" started-at="2017-12-17T11:00:39Z" data-provider="passwd" depends-on-methods="test.testPasswd.testLogin" finished-at="2017-12-17T11:00:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[马]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[246831@qq.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[majiashuo]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[m1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[m1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddMessage4 -->
+        <test-method status="PASS" signature="testAddMessage4(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.testPasswd@675d3402]" name="testAddMessage4" duration-ms="15496" started-at="2017-12-17T11:00:54Z" data-provider="passwd" depends-on-methods="test.testPasswd.testLogin" finished-at="2017-12-17T11:01:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[马]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[246831@qq.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[majiashuo]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[m.]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[m.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddMessage4 -->
+        <test-method status="PASS" signature="testAddMessage4(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.testPasswd@675d3402]" name="testAddMessage4" duration-ms="15372" started-at="2017-12-17T11:01:09Z" data-provider="passwd" depends-on-methods="test.testPasswd.testLogin" finished-at="2017-12-17T11:01:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[马]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[246831@qq.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[majiashuo]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[m]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddMessage4 -->
+        <test-method status="PASS" signature="testAddMessage4(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.testPasswd@675d3402]" name="testAddMessage4" duration-ms="15407" started-at="2017-12-17T11:01:25Z" data-provider="passwd" depends-on-methods="test.testPasswd.testLogin" finished-at="2017-12-17T11:01:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[马]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[246831@qq.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[majiashuo]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[马]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[马]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddMessage4 -->
+        <test-method status="PASS" signature="testAddMessage4(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.testPasswd@675d3402]" name="testAddMessage4" duration-ms="15366" started-at="2017-12-17T11:01:40Z" data-provider="passwd" depends-on-methods="test.testPasswd.testLogin" finished-at="2017-12-17T11:01:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[马]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[246831@qq.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[majiashuo]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[#]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[#]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddMessage4 -->
+        <test-method status="PASS" signature="testAddMessage4(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.testPasswd@675d3402]" name="testAddMessage4" duration-ms="15347" started-at="2017-12-17T11:01:56Z" data-provider="passwd" depends-on-methods="test.testPasswd.testLogin" finished-at="2017-12-17T11:02:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[马]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[246831@qq.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[majiashuo]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddMessage4 -->
+        <test-method status="PASS" signature="testAddMessage4(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.testPasswd@675d3402]" name="testAddMessage4" duration-ms="15545" started-at="2017-12-17T11:02:11Z" data-provider="passwd" depends-on-methods="test.testPasswd.testLogin" finished-at="2017-12-17T11:02:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[马]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[246831@qq.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[majiashuo]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[111111111111111111111111111111111111111111111]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[111111111111111111111111111111111111111111111]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddMessage4 -->
+        <test-method status="PASS" signature="testAddMessage4(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.testPasswd@675d3402]" name="testAddMessage4" duration-ms="15434" started-at="2017-12-17T11:02:26Z" data-provider="passwd" depends-on-methods="test.testPasswd.testLogin" finished-at="2017-12-17T11:02:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[马]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[246831@qq.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[majiashuo]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1.]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddMessage4 -->
+        <test-method status="PASS" signature="testAddMessage4(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.testPasswd@675d3402]" name="testAddMessage4" duration-ms="15414" started-at="2017-12-17T11:02:42Z" data-provider="passwd" depends-on-methods="test.testPasswd.testLogin" finished-at="2017-12-17T11:02:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[马]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[246831@qq.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[majiashuo]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[mxjmjs9229..]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[mxjmjs9229..]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddMessage4 -->
+        <test-method status="PASS" signature="testAddMessage4(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.testPasswd@675d3402]" name="testAddMessage4" duration-ms="15733" started-at="2017-12-17T11:02:57Z" data-provider="passwd" depends-on-methods="test.testPasswd.testLogin" finished-at="2017-12-17T11:03:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[马]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[246831@qq.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[majiashuo]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddMessage4 -->
+        <test-method status="PASS" signature="doAfterMethod()[pri:0, instance:test.testPasswd@675d3402]" name="doAfterMethod" is-config="true" duration-ms="2836" started-at="2017-12-17T11:03:13Z" finished-at="2017-12-17T11:03:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+      </class> <!-- test.testPasswd -->
+      <class name="test.testAddAddress">
+        <test-method status="PASS" signature="doBeforeMethod()[pri:0, instance:test.testAddAddress@51565ec2]" name="doBeforeMethod" is-config="true" duration-ms="10263" started-at="2017-12-17T11:03:16Z" finished-at="2017-12-17T11:03:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeMethod -->
+        <test-method status="PASS" signature="testLogin()[pri:0, instance:test.testAddAddress@51565ec2]" name="testLogin" duration-ms="11956" started-at="2017-12-17T11:03:26Z" finished-at="2017-12-17T11:03:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="FAIL" signature="testAddAddresses(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.testAddAddress@51565ec2]" name="testAddAddresses" duration-ms="28438" started-at="2017-12-17T11:03:38Z" data-provider="address" depends-on-methods="test.testAddAddress.testLogin" finished-at="2017-12-17T11:04:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[小红]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[河北省]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[衡水市]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[深州]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[30号]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[15732159232]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[053800]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Cannot locate option with value: 深州
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: '火乐乐的电脑', ip: '169.254.52.63', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate option with value: 深州
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: '火乐乐的电脑', ip: '169.254.52.63', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByValue(Select.java:209)
+	at com.webtest.core.WebDriverEngine.selectByValue(WebDriverEngine.java:208)
+	at manage.AddAddress.input(AddAddress.java:22)
+	at test.testAddAddress.testAddAddresses(testAddAddress.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddAddresses -->
+        <test-method status="PASS" signature="testAddAddresses(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.testAddAddress@51565ec2]" name="testAddAddresses" duration-ms="43883" started-at="2017-12-17T11:04:07Z" data-provider="address" depends-on-methods="test.testAddAddress.testLogin" finished-at="2017-12-17T11:04:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[马佳烁]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[浙江省]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[杭州市]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[临安市]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[40号]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddAddresses -->
+        <test-method status="PASS" signature="testAddAddresses(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.testAddAddress@51565ec2]" name="testAddAddresses" duration-ms="43793" started-at="2017-12-17T11:04:50Z" data-provider="address" depends-on-methods="test.testAddAddress.testLogin" finished-at="2017-12-17T11:05:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[张晓明]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[黑龙江省]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[哈尔滨市]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[松北区]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[14栋3号]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[139]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[234554]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddAddresses -->
+        <test-method status="PASS" signature="testAddAddresses(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.testAddAddress@51565ec2]" name="testAddAddresses" duration-ms="43692" started-at="2017-12-17T11:05:34Z" data-provider="address" depends-on-methods="test.testAddAddress.testLogin" finished-at="2017-12-17T11:06:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[李晓红]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[福建省]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[福州市]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[鼓楼区]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2栋工业]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[15532155678]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[890890]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddAddresses -->
+        <test-method status="PASS" signature="testAddAddresses(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.testAddAddress@51565ec2]" name="testAddAddresses" duration-ms="44121" started-at="2017-12-17T11:06:18Z" data-provider="address" depends-on-methods="test.testAddAddress.testLogin" finished-at="2017-12-17T11:07:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[张婷婷]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[山东省]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[济南市]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[天桥区]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[3号写字楼]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[18032834432]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[234678]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddAddresses -->
+        <test-method status="PASS" signature="testAddAddresses(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.testAddAddress@51565ec2]" name="testAddAddresses" duration-ms="43732" started-at="2017-12-17T11:07:02Z" data-provider="address" depends-on-methods="test.testAddAddress.testLogin" finished-at="2017-12-17T11:07:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[上海市]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[上海市]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[黄浦区]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[邮局]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[15523456654]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[888999]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddAddresses -->
+        <test-method status="PASS" signature="doAfterMethod()[pri:0, instance:test.testAddAddress@51565ec2]" name="doAfterMethod" is-config="true" duration-ms="2892" started-at="2017-12-17T11:07:46Z" finished-at="2017-12-17T11:07:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+      </class> <!-- test.testAddAddress -->
+      <class name="test.testName">
+        <test-method status="PASS" signature="doBeforeMethod()[pri:0, instance:test.testName@68be2bc2]" name="doBeforeMethod" is-config="true" duration-ms="11368" started-at="2017-12-17T10:57:16Z" finished-at="2017-12-17T10:57:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeMethod -->
+        <test-method status="PASS" signature="testLogin()[pri:0, instance:test.testName@68be2bc2]" name="testLogin" duration-ms="12261" started-at="2017-12-17T10:57:27Z" finished-at="2017-12-17T10:57:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="testAddMessage3(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.testName@68be2bc2]" name="testAddMessage3" duration-ms="16063" started-at="2017-12-17T10:57:39Z" data-provider="name" depends-on-methods="test.testName.testLogin" finished-at="2017-12-17T10:57:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[马]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[246831@qq.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[mxjmjs9229..]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[mxjmjs9229..]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddMessage3 -->
+        <test-method status="PASS" signature="testAddMessage3(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.testName@68be2bc2]" name="testAddMessage3" duration-ms="15370" started-at="2017-12-17T10:57:55Z" data-provider="name" depends-on-methods="test.testName.testLogin" finished-at="2017-12-17T10:58:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[马]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[246831@qq.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123A]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[mxjmjs9229..]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[mxjmjs9229..]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddMessage3 -->
+        <test-method status="PASS" signature="testAddMessage3(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.testName@68be2bc2]" name="testAddMessage3" duration-ms="15312" started-at="2017-12-17T10:58:11Z" data-provider="name" depends-on-methods="test.testName.testLogin" finished-at="2017-12-17T10:58:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[马]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[246831@qq.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1234马]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[mxjmjs9229..]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[mxjmjs9229..]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddMessage3 -->
+        <test-method status="PASS" signature="testAddMessage3(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.testName@68be2bc2]" name="testAddMessage3" duration-ms="15402" started-at="2017-12-17T10:58:26Z" data-provider="name" depends-on-methods="test.testName.testLogin" finished-at="2017-12-17T10:58:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[马]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[246831@qq.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12.]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[mxjmjs9229..]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[mxjmjs9229..]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddMessage3 -->
+        <test-method status="PASS" signature="testAddMessage3(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.testName@68be2bc2]" name="testAddMessage3" duration-ms="15433" started-at="2017-12-17T10:58:41Z" data-provider="name" depends-on-methods="test.testName.testLogin" finished-at="2017-12-17T10:58:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[马]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[246831@qq.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[马.]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[mxjmjs9229..]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[mxjmjs9229..]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddMessage3 -->
+        <test-method status="PASS" signature="testAddMessage3(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.testName@68be2bc2]" name="testAddMessage3" duration-ms="15361" started-at="2017-12-17T10:58:57Z" data-provider="name" depends-on-methods="test.testName.testLogin" finished-at="2017-12-17T10:59:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[马]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[246831@qq.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[马123a.]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[mxjmjs9229..]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[mxjmjs9229..]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddMessage3 -->
+        <test-method status="PASS" signature="testAddMessage3(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.testName@68be2bc2]" name="testAddMessage3" duration-ms="15332" started-at="2017-12-17T10:59:12Z" data-provider="name" depends-on-methods="test.testName.testLogin" finished-at="2017-12-17T10:59:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[马]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[246831@qq.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[#]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[mxjmjs9229..]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[mxjmjs9229..]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddMessage3 -->
+        <test-method status="PASS" signature="testAddMessage3(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.testName@68be2bc2]" name="testAddMessage3" duration-ms="15334" started-at="2017-12-17T10:59:27Z" data-provider="name" depends-on-methods="test.testName.testLogin" finished-at="2017-12-17T10:59:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[马]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[246831@qq.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1234#]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[mxjmjs9229..]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[mxjmjs9229..]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddMessage3 -->
+        <test-method status="PASS" signature="testAddMessage3(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.testName@68be2bc2]" name="testAddMessage3" duration-ms="15415" started-at="2017-12-17T10:59:43Z" data-provider="name" depends-on-methods="test.testName.testLogin" finished-at="2017-12-17T10:59:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[马]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[246831@qq.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[majiashuo]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddMessage3 -->
+        <test-method status="PASS" signature="doAfterMethod()[pri:0, instance:test.testName@68be2bc2]" name="doAfterMethod" is-config="true" duration-ms="2677" started-at="2017-12-17T10:59:58Z" finished-at="2017-12-17T11:00:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+      </class> <!-- test.testName -->
+      <class name="test.testPayOne">
+        <test-method status="PASS" signature="doBeforeMethod()[pri:0, instance:test.testPayOne@457e2f02]" name="doBeforeMethod" is-config="true" duration-ms="10429" started-at="2017-12-17T11:10:27Z" finished-at="2017-12-17T11:10:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeMethod -->
+        <test-method status="PASS" signature="testLogin()[pri:0, instance:test.testPayOne@457e2f02]" name="testLogin" duration-ms="12895" started-at="2017-12-17T11:10:37Z" finished-at="2017-12-17T11:10:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="FAIL" signature="testPayOnes()[pri:0, instance:test.testPayOne@457e2f02]" name="testPayOnes" duration-ms="17083" started-at="2017-12-17T11:10:50Z" depends-on-methods="test.testPayOne.testLogin" finished-at="2017-12-17T11:11:07Z">
+          <exception class="org.openqa.selenium.UnhandledAlertException">
+            <message>
+              <![CDATA[: 
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: '火乐乐的电脑', ip: '169.254.52.63', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\火乐乐\AppData\Local\Temp\rust_mozprofile.BjLW90nrkYJj, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0.3, platformVersion=10.0, moz:processID=4780, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: cb300336-71ed-4448-8ec8-d4c709ddbfcc]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.UnhandledAlertException: : 
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: '火乐乐的电脑', ip: '169.254.52.63', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\火乐乐\AppData\Local\Temp\rust_mozprofile.BjLW90nrkYJj, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0.3, platformVersion=10.0, moz:processID=4780, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: cb300336-71ed-4448-8ec8-d4c709ddbfcc
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:118)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:643)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:472)
+	at com.webtest.core.WebDriverEngine.closeWindow(WebDriverEngine.java:260)
+	at manage.Pay.pay(Pay.java:32)
+	at test.testPayOne.testPayOnes(testPayOne.java:19)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPayOnes -->
+        <test-method status="PASS" signature="doAfterMethod()[pri:0, instance:test.testPayOne@457e2f02]" name="doAfterMethod" is-config="true" duration-ms="2838" started-at="2017-12-17T11:11:07Z" finished-at="2017-12-17T11:11:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+      </class> <!-- test.testPayOne -->
+      <class name="test.Login">
+        <test-method status="PASS" signature="doBeforeMethod()[pri:0, instance:test.Login@7c16905e]" name="doBeforeMethod" is-config="true" duration-ms="24806" started-at="2017-12-17T10:51:00Z" finished-at="2017-12-17T10:51:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeMethod -->
+        <test-method status="PASS" signature="testLogin()[pri:0, instance:test.Login@7c16905e]" name="testLogin" duration-ms="13379" started-at="2017-12-17T10:51:25Z" finished-at="2017-12-17T10:51:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="doAfterMethod()[pri:0, instance:test.Login@7c16905e]" name="doAfterMethod" is-config="true" duration-ms="6518" started-at="2017-12-17T10:51:38Z" finished-at="2017-12-17T10:51:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+      </class> <!-- test.Login -->
+      <class name="test.testPayNone">
+        <test-method status="PASS" signature="doBeforeMethod()[pri:0, instance:test.testPayNone@4cc0edeb]" name="doBeforeMethod" is-config="true" duration-ms="9723" started-at="2017-12-17T11:09:46Z" finished-at="2017-12-17T11:09:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeMethod -->
+        <test-method status="PASS" signature="testLogin()[pri:0, instance:test.testPayNone@4cc0edeb]" name="testLogin" duration-ms="12049" started-at="2017-12-17T11:09:56Z" finished-at="2017-12-17T11:10:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="testPayNones()[pri:0, instance:test.testPayNone@4cc0edeb]" name="testPayNones" duration-ms="13708" started-at="2017-12-17T11:10:08Z" depends-on-methods="test.testPayNone.testLogin" finished-at="2017-12-17T11:10:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPayNones -->
+        <test-method status="PASS" signature="doAfterMethod()[pri:0, instance:test.testPayNone@4cc0edeb]" name="doAfterMethod" is-config="true" duration-ms="4769" started-at="2017-12-17T11:10:22Z" finished-at="2017-12-17T11:10:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+      </class> <!-- test.testPayNone -->
+    </test> <!-- s1 -->
+  </suite> <!-- s1 -->
 </testng-results>

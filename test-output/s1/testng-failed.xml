@@ -6,14 +6,32 @@
   </listeners>
   <test name="s1(failed)">
     <classes>
+      <class name="test.testAddShopping">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- test.testAddShopping -->
+      <class name="test.testPayAll">
+        <methods>
+          <include name="testPayAlls"/>
+          <include name="doAfterMethod"/>
+          <include name="testLogin"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- test.testPayAll -->
       <class name="test.testName">
         <methods>
-          <include name="testLogin"/>
           <include name="doAfterMethod"/>
-          <include name="testAddMessage3"/>
           <include name="doBeforeMethod"/>
         </methods>
       </class> <!-- test.testName -->
+      <class name="test.testDeleteShopping">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- test.testDeleteShopping -->
       <class name="test.Login">
         <methods>
           <include name="doAfterMethod"/>
@@ -23,25 +41,49 @@
       <class name="test.testEmail">
         <methods>
           <include name="doAfterMethod"/>
-          <include name="testLogin"/>
-          <include name="testAddMessage2"/>
           <include name="doBeforeMethod"/>
         </methods>
       </class> <!-- test.testEmail -->
-      <class name="test.testPasswd">
+      <class name="test.testDeleteAddress">
         <methods>
-          <include name="testAddMessage4"/>
           <include name="doAfterMethod"/>
-          <include name="testLogin"/>
           <include name="doBeforeMethod"/>
         </methods>
-      </class> <!-- test.testPasswd -->
+      </class> <!-- test.testDeleteAddress -->
+      <class name="test.testAddAddress">
+        <methods>
+          <include name="testLogin"/>
+          <include name="testAddAddresses" invocation-numbers="0"/>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- test.testAddAddress -->
       <class name="test.testNickname">
         <methods>
           <include name="doAfterMethod"/>
           <include name="doBeforeMethod"/>
         </methods>
       </class> <!-- test.testNickname -->
+      <class name="test.testPasswd">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- test.testPasswd -->
+      <class name="test.testPayOne">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="testLogin"/>
+          <include name="testPayOnes"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- test.testPayOne -->
+      <class name="test.testPayNone">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- test.testPayNone -->
     </classes>
   </test> <!-- s1(failed) -->
 </suite> <!-- Failed suite [s1] -->
